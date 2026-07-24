@@ -1,0 +1,57 @@
+id,feedback,timestamp,source
+1,My account has been frozen for 9 days and nobody can tell me why. I have rent money stuck in there and support keeps sending me the same copy-paste email.,2026-07-05T00:00:00Z,Reviews
+2,Account frozen with no explanation: My account was frozen after a routine transfer and I've had no response from the verification team in over a week. I need access to pay my bills.,2026-07-05T09:14:00Z,Tickets
+3,Locked out of my account with no warning. Passed every verification step and it's still 'under review.' This is my only access to my paycheck.,2026-07-06T00:00:00Z,Reviews
+4,Faster resolution on account freezes. Mine took over a week and support gave no timeline.,2026-07-06T00:00:00Z,Survey
+5,Can't log in after password reset: I reset my password like the email said but now I get 'account locked' every time I try to log in. Please help urgently.,2026-07-06T14:02:00Z,Tickets
+6,Sending money to family abroad has been smooth and the exchange rate shown upfront is appreciated.,2026-07-07T00:00:00Z,Survey
+7,Transfer stuck in pending for days: I sent a payment to a friend on Tuesday and it's still showing pending on my end even though the money already left my bank.,2026-07-07T11:45:00Z,Tickets
+8,Make it clearer why a transfer is delayed instead of just saying pending with no details.,2026-07-08T00:00:00Z,Survey
+9,Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check.,2026-07-08T00:00:00Z,Reviews
+10,Unauthorized $600 transaction: There is a transaction I did not make for $600 sent to an account I don't recognize. I want this investigated and reversed immediately.,2026-07-08T16:20:00Z,Tickets
+11,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes.",2026-07-09T00:00:00Z,Survey
+12,Tried to send $400 to my sister and the transfer has been 'pending' for 3 days. Money left my bank account already so now I'm out $400 with nothing to show for it.,2026-07-09T00:00:00Z,Reviews
+13,Phishing text pretending to be support: I got a text pretending to be your fraud team asking me to verify my card number. Wanted to flag this in case others are getting the same scam.,2026-07-09T10:05:00Z,Tickets
+14,The verification process to unlock full features asked for way too many documents for a small limit increase.,2026-07-10T00:00:00Z,Survey
+15,Someone got into my account and sent themselves $850 from my linked card. I never approved that transaction and now I'm fighting to get it reversed.,2026-07-10T00:00:00Z,Reviews
+16,Refund not received: The merchant confirmed my refund was issued over a week ago but I still don't see it in my balance or transaction history.,2026-07-10T08:12:00Z,Tickets
+17,Dispute never resolved after 3 weeks: I opened a dispute for an item that never arrived and it's been open for three weeks with no update. Can someone actually look at this?,2026-07-10T13:33:00Z,Tickets
+18,"Linking my bank account failed twice before finally working on the third try, no idea why.",2026-07-11T00:00:00Z,Survey
+19,Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $200 is gone. Wish the app warned people about these scams more clearly.,2026-07-11T00:00:00Z,Reviews
+20,I disputed a payment to a seller who never shipped my item. It's been three weeks and the dispute status still just says 'in progress' with zero updates.,2026-07-11T00:00:00Z,Reviews
+21,ID verification keeps failing: I've submitted my driver's license photo four times now and it keeps getting rejected with no reason given. How do I fix this?,2026-07-11T15:47:00Z,Tickets
+22,Uploaded my ID three times for verification and it keeps getting rejected with no explanation of what's wrong with the photo.,2026-07-12T00:00:00Z,Reviews
+23,Refund for a canceled order never came through even though the merchant confirmed it on their end. Support said to 'wait 5-7 business days' two weeks ago.,2026-07-12T00:00:00Z,Reviews
+24,Wish the fee was shown before I hit confirm instead of after the money is already sent.,2026-07-12T00:00:00Z,Survey
+25,"Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $300 increase.",2026-07-12T09:30:00Z,Tickets
+26,"The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $200. Way too much friction.",2026-07-13T00:00:00Z,Reviews
+27,Customer support chat felt like talking to a wall. Took forever to get a real answer.,2026-07-13T00:00:00Z,Survey
+28,Linking my Chase debit card fails every single time with a generic error code. Works fine in every other app I use.,2026-07-13T00:00:00Z,Reviews
+29,Debit card won't link: Every time I try to add my bank debit card I get error code 4021. I've tried three different cards and none work.,2026-07-13T12:10:00Z,Tickets
+30,Direct deposit didn't show up on payday even though my employer confirmed it was sent two days early like usual. Had to scramble to cover bills.,2026-07-14T00:00:00Z,Reviews
+31,"App has been crashing a lot lately, especially when I check old transactions.",2026-07-14T00:00:00Z,Survey
+32,Instant transfer fee jumped from 1.5% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast.,2026-07-14T00:00:00Z,Reviews
+33,Surprise fee on instant transfer: I was charged a higher fee than usual for an instant transfer and there was no warning it had changed before I confirmed.,2026-07-14T17:05:00Z,Tickets
+34,Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm.,2026-07-15T00:00:00Z,Reviews
+35,"Nothing really, it does exactly what I need for splitting bills with roommates.",2026-07-15T00:00:00Z,Survey
+36,Waited on hold for 40 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again.,2026-07-15T00:00:00Z,Reviews
+37,Still waiting on hold: I've been on hold for over 35 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?,2026-07-15T11:22:00Z,Tickets
+38,Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed.,2026-07-16T00:00:00Z,Reviews
+39,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.,2026-07-16T00:00:00Z,Reviews
+40,A built in way to schedule recurring payments would save me so much time every month.,2026-07-16T00:00:00Z,Survey
+41,App keeps crashing on transaction history: Since the latest update the app crashes every single time I open my transaction history tab. Happens on both wifi and cellular.,2026-07-16T09:55:00Z,Tickets
+42,"App crashes every time I try to open my transaction history. Been happening since the last update, completely unusable now.",2026-07-17T00:00:00Z,Reviews
+43,"Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through.",2026-07-17T00:00:00Z,Reviews
+44,"Dark mode please, and maybe the ability to categorize past transactions.",2026-07-17T00:00:00Z,Survey
+45,Balance shows wrong amount briefly: When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one. Kind of alarming.,2026-07-17T14:40:00Z,Tickets
+46,The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work.,2026-07-18T00:00:00Z,Reviews
+47,"Overall pretty happy, the redesign made things easier to find.",2026-07-18T00:00:00Z,Survey
+48,The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online.,2026-07-18T00:00:00Z,Reviews
+49,Feature request: recurring payments: Could you add a way to schedule a payment to repeat every month automatically? I send rent to the same person every time manually.,2026-07-18T10:15:00Z,Tickets
+50,"Please add a dark mode, my eyes would thank you. Otherwise the app does what I need it to do.",2026-07-19T00:00:00Z,Reviews
+51,Would love a way to schedule recurring payments to the same person every month instead of manually sending it each time.,2026-07-19T00:00:00Z,Reviews
+52,It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do.,2026-07-20T00:00:00Z,Reviews
+53,Been using this for two years to split rent with roommates and it has never once given me trouble. Does exactly what it says on the tin.,2026-07-20T00:00:00Z,Reviews
+54,Got a suspicious text claiming to be you asking to confirm my card. Might want to warn users about that scam.,2026-07-20T00:00:00Z,Survey
+55,Thinking about closing my account: Between the frozen funds and the hold times I'm seriously considering moving to a different app. This is the third issue this month.,2026-07-20T16:30:00Z,Tickets
+56,Considering switching to a competitor after this account freeze nonsense. Two weeks with my money locked up is unacceptable for a company this size.,2026-07-21T00:00:00Z,Reviews
