@@ -1,5 +1,5 @@
 """
-PulseAI Phase 1 pipeline: raw sources -> normalized staging -> LLM-classified
+Phase 1 pipeline: raw sources -> normalized staging -> LLM-classified
 enriched data. Run this end-to-end with `uv run main.py`.
 """
 import etl
