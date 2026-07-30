@@ -52,3 +52,7 @@ class EnrichedData(Classification):
     timestamp: str = Field(..., description="Timestamp when the data was enriched")
     source: Source = Field(..., description="Source associated with the enriched data")
     feedback: str = Field(..., description="Feedback given by the user")
+
+class RAGAnswer(BaseModel):
+    answer: str = Field(..., description="Synthesized answer, grounded only in the provided feedback excerpts")
+    cited_ids: List[str] = Field(..., description="IDs of the feedback items that support the answer")
