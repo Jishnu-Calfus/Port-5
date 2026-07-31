@@ -96,3 +96,68 @@ machine — got called out for reaching for it without being asked. Backed out
 and installed Postgres.app natively instead. Lesson: default to the
 lightest-touch option that does what was actually asked, not what's most
 convenient to reach for.
+
+## 2026-07-30 — Phase 3: intelligence layer (priority, RAG, weekly summary, API)
+
+**What got built:** `aggregations.py` (chart/KPI queries), `priority.py`
+(`severity x volume x share-negative` ranking), `summary.py` + a
+`WeeklySummary` schema (narrative grounded in the two above), `vector_store.py`
+/ `index_feedback.py` / `rag.py` (ChromaDB + Ollama embeddings for "ask your
+feedback"), `api.py` (FastAPI wrapping all of it).
+
+**Priority score is kept as 3 explicit factors, not collapsed:**
+`severity_weight x volume x share_negative` could be simplified to
+`severity_weight x negative_count` (since `volume x share_negative` literally
+*is* the negative count) — mathematically identical, but collapsing it would
+hide *why* a category ranked where it did. Keeping all three visible answers
+"is this high-priority because it's small-but-severe-and-mostly-negative, or
+large-with-a-smaller-negative-share?" without extra work.
+
+**ChromaDB needed no server at all, unlike Postgres** — it's an embedded
+database: the engine is a library linked into whatever script imports it,
+reading/writing its own files straight to `data/chroma/`. Proved this
+concretely: wrote one document from one Python process, then read it back
+from a completely separate process afterward with nothing running in
+between — same idea as SQLite, just for vectors.
+
+**RAG is semantic search, not a database filter — this bit us for real.** Asked
+"give me all reviews in the Fees & Pricing category, in order" — Postgres
+says there are 4 (`id=24,32,33,34`); the RAG box only surfaced 3 (`24,33,32`),
+and pulled in two *unrelated* items (about app crashes and the UI redesign)
+along the way. Root cause: `retrieve()` embeds the whole question and finds
+the k nearest neighbors by similarity — there's no category filter at all, so
+a long, meta-heavy question phrasing ("give me a detailed report... in
+order") shifted the embedding enough that the genuine 4th item fell outside
+the top-k while two irrelevant ones ranked closer. The LLM actually behaved
+correctly given what it was shown (it didn't hallucinate the missing one, and
+correctly ignored the two irrelevant retrieved items) — the gap was upstream,
+in retrieval, not generation. Lesson: "give me every item matching X" is
+always a job for the structured store (`aggregations.py`/Postgres), never the
+vector search box, no matter how the question is phrased.
+
+**Dropped Next.js for plain React** partway into planning Phase 4, on
+direction: Next.js's App Router adds real conceptual overhead (server vs.
+client components) on top of learning React itself, and the ask was for
+something minimal, not a framework-scale build. Vite + React + Recharts talks
+to `api.py` over plain fetch — no SSR, no framework routing, one page.
+
+**Design system wasn't hand-picked** — sourced from a validated
+color/chart-form methodology (CVD-safe categorical palette, chart-type rules
+per data job) rather than choosing colors/chart types by eye. Concretely: the
+sentiment chart is a diverging stacked bar, not a pie, because sentiment is
+*ordered* (negative↔positive) and a pie would destroy that ordering; the
+source breakdown *is* a donut because those 3 categories are genuinely
+unordered.
+
+**Gotcha: `uvicorn` without `--reload` silently serves stale code.** Changed
+`top_n=3` to `top_n=4` in `api.py`, hit the endpoint, still got 3 back —
+because the server process had `api.py`'s old code loaded into memory from
+when it started, and nothing was watching the file for changes. `--reload`
+is the flag that makes uvicorn notice edits automatically; without it, a
+manual restart is required every time, and it's easy to mistake "my change
+didn't work" for a real bug when it's actually just a stale process.
+
+**What I'd revisit:** no automated accuracy harness or edge-case/API-failure
+robustness testing yet (empty input, wrong-language input, Ollama being
+unreachable mid-batch) — both called out explicitly in the original brief and
+still open.
