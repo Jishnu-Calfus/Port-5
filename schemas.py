@@ -56,3 +56,7 @@ class EnrichedData(Classification):
 class RAGAnswer(BaseModel):
     answer: str = Field(..., description="Synthesized answer, grounded only in the provided feedback excerpts")
     cited_ids: List[str] = Field(..., description="IDs of the feedback items that support the answer")
+
+
+class WeeklySummary(BaseModel):
+    summary: str = Field(..., description="Narrative summary grounded only in the provided computed numbers")
