@@ -1,0 +1,237 @@
+/* Dark-only theme, sourced from the dataviz skill's validated palette
+   (dark-mode steps) rather than hand-picked colors. This dashboard is
+   internal/analytics-only, so no light-mode/toggle -- kept simple on
+   purpose, matching the reference design's fixed dark aesthetic. */
+:root {
+  color-scheme: dark;
+
+  --page-bg: #0d0d0d;
+  --card-bg: #1a1a19;
+  --border: rgba(255, 255, 255, 0.1);
+
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --gridline: #2c2c2a;
+  --axis: #383835;
+
+  /* categorical -- fixed order, never cycled or reassigned by filters */
+  --series-blue: #3987e5;
+  --series-orange: #d95926;
+  --series-aqua: #199e70;
+  --series-yellow: #c98500;
+  --series-magenta: #d55181;
+  --series-violet: #9085e9;
+
+  /* status palette -- reserved for severity badges, never a chart series */
+  --status-critical: #d03b3b;
+  --status-serious: #ec835a;
+  --status-warning: #fab219;
+  --status-good: #0ca30c;
+
+  /* diverging pair (blue<->red + gray midpoint), for the sentiment chart */
+  --diverging-negative: #e66767;
+  --diverging-neutral: #898781;
+
+  --radius: 12px;
+  --font: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-variant-numeric: tabular-nums;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.app-header {
+  margin-bottom: 24px;
+}
+.app-header h1 {
+  font-size: 28px;
+  margin: 0 0 4px;
+}
+.app-header p {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 16px;
+}
+
+/* KPI row */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.stat-tile .stat-label {
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.stat-tile .stat-value {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Priority panel */
+.priority-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.priority-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.priority-row .priority-name {
+  font-weight: 600;
+  flex: 1;
+  min-width: 160px;
+}
+.priority-row .priority-detail {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.severity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.severity-badge.critical {
+  background: rgba(208, 59, 59, 0.15);
+  color: var(--status-critical);
+}
+.severity-badge.high {
+  background: rgba(236, 131, 90, 0.15);
+  color: var(--status-serious);
+}
+.severity-badge.medium {
+  background: rgba(250, 178, 25, 0.15);
+  color: var(--status-warning);
+}
+.severity-badge.low {
+  background: rgba(12, 163, 12, 0.15);
+  color: var(--status-good);
+}
+.severity-badge.unclassified {
+  background: rgba(137, 135, 129, 0.15);
+  color: var(--text-muted);
+}
+
+/* Charts grid */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+@media (max-width: 900px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.chart-card {
+  min-height: 320px;
+}
+
+/* Ask feedback */
+.ask-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.ask-box input {
+  flex: 1;
+  background: var(--page-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-size: 14px;
+}
+.ask-box button {
+  background: var(--series-blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.ask-box button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.ask-answer {
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.cited-ids {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.cited-id-chip {
+  background: var(--page-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Weekly summary */
+.summary-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.loading,
+.error {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.error {
+  color: var(--status-critical);
+}
