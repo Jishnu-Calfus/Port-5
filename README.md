@@ -43,6 +43,9 @@ narrow and its output deterministic and easy to validate.
 
 ## Data model (Phase 2)
 
+**A full ER diagram of the star schema below is in [`data_model.md`](data_model.md)** —
+renders directly on GitHub, no extra tooling needed.
+
 `feedback_enriched.json` is a convenient checkpoint, not an analytical format —
 `category` is a list, so it can't be grouped/aggregated directly. `model.py`
 loads it into a small star schema in Postgres (`models.py`, SQLAlchemy ORM):
