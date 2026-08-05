@@ -1,12 +1,4065 @@
 [
   {
     "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 1,
+    "timestamp": "2026-01-05T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 18 days over what turned out to be updating my phone number. Pretty stressful."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 2,
+    "timestamp": "2026-01-05T18:13:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my US Bank debit card I get error code 2214. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 3,
+    "timestamp": "2026-01-06T00:00:00Z",
+    "source": "Survey",
+    "feedback": "I disputed a payment to an online retailer who never shipped my item. It's been 15 days and the dispute status still just says 'in progress.'"
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 4,
+    "timestamp": "2026-01-07T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my US Bank account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 5,
+    "timestamp": "2026-01-07T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 15 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 6,
+    "timestamp": "2026-01-07T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 7,
+    "timestamp": "2026-01-07T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 14 days and nobody can tell me why. I have medical bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 8,
+    "timestamp": "2026-01-07T20:06:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 4 days: I opened a dispute for an item that never arrived from a ticketing site and it's been open for 4 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 9,
+    "timestamp": "2026-01-08T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Wish the fee was shown before I hit confirm instead of after the money is already sent."
+  },
+  {
+    "category": [
+      "Fees & Pricing",
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 10,
+    "timestamp": "2026-01-08T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 11,
+    "timestamp": "2026-01-08T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $375 is gone."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 12,
+    "timestamp": "2026-01-09T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Refund for a canceled order never came through even though an online retailer confirmed it on their end 17 days ago."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 13,
+    "timestamp": "2026-01-09T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Locked out of my account with no warning after a routine transfer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 14,
+    "timestamp": "2026-01-09T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Locked out of my account with no warning after changing my mailing address. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 15,
+    "timestamp": "2026-01-10T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Customer support chat felt like talking to a wall. Took forever to get a real answer."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 16,
+    "timestamp": "2026-01-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 17,
+    "timestamp": "2026-01-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Would love recurring payments. Otherwise the app does what I need it to do."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 18,
+    "timestamp": "2026-01-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Been using this for two years to split grocery with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 19,
+    "timestamp": "2026-01-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 2.25% to 2.25% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 20,
+    "timestamp": "2026-01-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Been using this for two years to split utility bill with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 21,
+    "timestamp": "2026-01-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 17 days and nobody can tell me why. I have medical bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 22,
+    "timestamp": "2026-01-12T18:39:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: transaction categorization: Could you add transaction categorization? I've been wanting this for a while, it would save me a lot of time managing my paycheck payments."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 23,
+    "timestamp": "2026-01-13T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 14 days over what turned out to be a large deposit. Pretty stressful."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 24,
+    "timestamp": "2026-01-13T00:00:00Z",
+    "source": "Survey",
+    "feedback": "App has been crashing a lot lately on my the web app, especially when I check old transactions."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 25,
+    "timestamp": "2026-01-13T20:54:00Z",
+    "source": "Tickets",
+    "feedback": "No way to reach a human: There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 26,
+    "timestamp": "2026-01-14T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 11 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 27,
+    "timestamp": "2026-01-14T09:26:00Z",
+    "source": "Tickets",
+    "feedback": "Account under review with no timeline: I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 7 days."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 28,
+    "timestamp": "2026-01-15T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 9 days over what turned out to be updating my phone number. Pretty stressful."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 29,
+    "timestamp": "2026-01-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for grocery and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 30,
+    "timestamp": "2026-01-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 2% to 2.25% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 31,
+    "timestamp": "2026-01-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $1000 is gone."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 32,
+    "timestamp": "2026-01-16T00:00:00Z",
+    "source": "Survey",
+    "feedback": "The verification process to unlock full features asked for way too many documents for a small limit increase."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 33,
+    "timestamp": "2026-01-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $600. Way too much friction."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 34,
+    "timestamp": "2026-01-17T00:00:00Z",
+    "source": "Survey",
+    "feedback": "I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 35,
+    "timestamp": "2026-01-17T00:00:00Z",
+    "source": "Survey",
+    "feedback": "App has been crashing a lot lately on my iPhone, especially when I check old transactions."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 36,
+    "timestamp": "2026-01-18T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "App crashes every time I try to open my transaction history on my Android phone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 37,
+    "timestamp": "2026-01-18T13:32:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my Capital One debit card I get error code 2214. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 38,
+    "timestamp": "2026-01-19T00:00:00Z",
+    "source": "Survey",
+    "feedback": "App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 39,
+    "timestamp": "2026-01-19T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Been using this for two years to split tuition with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 40,
+    "timestamp": "2026-01-19T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 15 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 41,
+    "timestamp": "2026-01-20T16:40:00Z",
+    "source": "Tickets",
+    "feedback": "Account under review with no timeline: I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 3 days."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 42,
+    "timestamp": "2026-01-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Please add multi-currency support, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 43,
+    "timestamp": "2026-01-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 44,
+    "timestamp": "2026-01-21T18:49:00Z",
+    "source": "Tickets",
+    "feedback": "App keeps crashing on transaction history: Since the latest update the app crashes every single time I open my transaction history tab on my Android phone. Happens on both wifi and cellular."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 45,
+    "timestamp": "2026-01-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a subscription service confirmed it on their end. Support said to 'wait 5-7 business days' 11 days ago."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 46,
+    "timestamp": "2026-01-22T08:38:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 1.75% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 47,
+    "timestamp": "2026-01-22T12:15:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 1.75% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 48,
+    "timestamp": "2026-01-22T19:17:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after a wire transfer from my employer and I've had no response from the verification team in 17 days. I need access to pay my rent."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 49,
+    "timestamp": "2026-01-23T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my Chase account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 50,
+    "timestamp": "2026-01-24T20:20:00Z",
+    "source": "Tickets",
+    "feedback": "Direct deposit missing: My direct deposit didn't show up on payday even though my employer confirmed it was sent 7 days early like usual. Had to scramble to cover my grocery."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 51,
+    "timestamp": "2026-01-25T00:00:00Z",
+    "source": "Survey",
+    "feedback": "budgeting tools, please, and maybe spending insights too."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 52,
+    "timestamp": "2026-01-25T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "App crashes every time I try to open my transaction history on my iPhone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 53,
+    "timestamp": "2026-01-25T15:28:00Z",
+    "source": "Tickets",
+    "feedback": "Still waiting on hold: I've been on hold for over 39 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?"
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 54,
+    "timestamp": "2026-01-25T20:11:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my rent issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 55,
+    "timestamp": "2026-01-26T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 21 days ago."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 56,
+    "timestamp": "2026-01-26T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Please add recurring payments, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 57,
+    "timestamp": "2026-01-26T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "I disputed a payment to a seller who never shipped my item. It's been 21 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 58,
+    "timestamp": "2026-01-28T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 20 days over what turned out to be updating my phone number. Pretty stressful."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 59,
+    "timestamp": "2026-01-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $500 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 60,
+    "timestamp": "2026-01-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 61,
+    "timestamp": "2026-01-28T13:06:00Z",
+    "source": "Tickets",
+    "feedback": "ID verification keeps failing: I've submitted my driver's license photo 12 times now and it keeps getting rejected with no reason given. How do I fix this?"
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 62,
+    "timestamp": "2026-01-28T13:06:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.5% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 63,
+    "timestamp": "2026-01-28T13:24:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $600 to my sister 13 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 64,
+    "timestamp": "2026-01-29T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 65,
+    "timestamp": "2026-01-29T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $200 transfer once took 7 days longer than expected."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 66,
+    "timestamp": "2026-01-29T10:56:00Z",
+    "source": "Tickets",
+    "feedback": "Account under review with no timeline: I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 12 days."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 67,
+    "timestamp": "2026-01-30T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Locked out of my account with no warning after updating my phone number. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 68,
+    "timestamp": "2026-01-31T18:54:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $650 increase."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 69,
+    "timestamp": "2026-02-01T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "I disputed a payment to a seller who never shipped my item. It's been 20 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 70,
+    "timestamp": "2026-02-01T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $650 to my sister and the transfer has been 'pending' for 9 days. Money already left my Citi account so now I'm out $650 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 71,
+    "timestamp": "2026-02-02T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Overall pretty happy, the redesign made things easier to find on my the web app."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 72,
+    "timestamp": "2026-02-03T00:00:00Z",
+    "source": "Survey",
+    "feedback": "App has been crashing a lot lately on my iPad, especially when I check old transactions."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 73,
+    "timestamp": "2026-02-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $1500 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 74,
+    "timestamp": "2026-02-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 75,
+    "timestamp": "2026-02-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 12 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 76,
+    "timestamp": "2026-02-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 15 days ago."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 77,
+    "timestamp": "2026-02-03T12:27:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.5% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 78,
+    "timestamp": "2026-02-03T14:07:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $1500 to my sister 16 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
       "Account Access & Freezes",
       "Customer Support"
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 1,
+    "id": 79,
+    "timestamp": "2026-02-04T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 17 days and nobody can tell me why. I have rent money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 80,
+    "timestamp": "2026-02-04T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 36 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 81,
+    "timestamp": "2026-02-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 4 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 82,
+    "timestamp": "2026-02-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a local store confirmed it on their end. Support said to 'wait 5-7 business days' 5 days ago."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 83,
+    "timestamp": "2026-02-06T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got a suspicious text claiming to be you asking to confirm my card. Might want to warn users about that scam."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 84,
+    "timestamp": "2026-02-06T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 2 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 85,
+    "timestamp": "2026-02-07T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Would love export to CSV. Otherwise the app does what I need it to do."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 86,
+    "timestamp": "2026-02-07T19:34:00Z",
+    "source": "Tickets",
+    "feedback": "Unauthorized $200 transaction: There is a transaction I did not make for $200 sent to an account I don't recognize. I want this investigated and reversed immediately."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 87,
+    "timestamp": "2026-02-09T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $375 transfer once took 8 days longer than expected."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 88,
+    "timestamp": "2026-02-09T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a local store confirmed it on their end. Support said to 'wait 5-7 business days' 11 days ago."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 89,
+    "timestamp": "2026-02-09T15:31:00Z",
+    "source": "Tickets",
+    "feedback": "App keeps crashing on transaction history: Since the latest update the app crashes every single time I open my transaction history tab on my iPad. Happens on both wifi and cellular."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 90,
+    "timestamp": "2026-02-09T18:21:00Z",
+    "source": "Tickets",
+    "feedback": "Still waiting on hold: I've been on hold for over 27 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?"
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 91,
+    "timestamp": "2026-02-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Please add budgeting tools, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 92,
+    "timestamp": "2026-02-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $150 to my sister and the transfer has been 'pending' for 5 days. Money already left my Chase account so now I'm out $150 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 93,
+    "timestamp": "2026-02-12T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 94,
+    "timestamp": "2026-02-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 8 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 95,
+    "timestamp": "2026-02-12T07:28:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $250 increase."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 96,
+    "timestamp": "2026-02-13T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 12 days over what turned out to be logging in from a new device. Pretty stressful."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 97,
+    "timestamp": "2026-02-13T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $900 is gone."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 98,
+    "timestamp": "2026-02-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 16 days ago."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 99,
+    "timestamp": "2026-02-15T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Would love multi-currency support. Otherwise the app does what I need it to do."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 100,
+    "timestamp": "2026-02-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $1000 to my sister and the transfer has been 'pending' for 9 days. Money already left my Citi account so now I'm out $1000 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 101,
+    "timestamp": "2026-02-16T14:18:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 13 days: I opened a dispute for an item that never arrived from a ticketing site and it's been open for 13 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 102,
+    "timestamp": "2026-02-16T17:39:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $1200 increase."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 103,
+    "timestamp": "2026-02-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a marketplace seller confirmed it on their end. Support said to 'wait 5-7 business days' 15 days ago."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 104,
+    "timestamp": "2026-02-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Been using this for two years to split medical bill with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 105,
+    "timestamp": "2026-02-17T09:17:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after logging in from a new device and I've had no response from the verification team in 13 days. I need access to pay my grocery."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 106,
+    "timestamp": "2026-02-18T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my Citi account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 107,
+    "timestamp": "2026-02-18T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $600 to my sister and the transfer has been 'pending' for 10 days. Money already left my Capital One account so now I'm out $600 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 108,
+    "timestamp": "2026-02-20T16:27:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after a routine transfer and I've had no response from the verification team in 15 days. I need access to pay my utility bill."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 109,
+    "timestamp": "2026-02-20T20:09:00Z",
+    "source": "Tickets",
+    "feedback": "Unauthorized $2200 transaction: There is a transaction I did not make for $2200 sent to an account I don't recognize. I want this investigated and reversed immediately."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 110,
+    "timestamp": "2026-02-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $250. Way too much friction."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 111,
+    "timestamp": "2026-02-22T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $500 transfer once took 14 days longer than expected."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 112,
+    "timestamp": "2026-02-24T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for paycheck and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 113,
+    "timestamp": "2026-02-24T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Wells Fargo debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 114,
+    "timestamp": "2026-02-25T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 3 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 115,
+    "timestamp": "2026-02-25T08:08:00Z",
+    "source": "Tickets",
+    "feedback": "Still waiting on hold: I've been on hold for over 30 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?"
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 116,
+    "timestamp": "2026-02-25T16:34:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my PNC debit card I get error code 6603. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 117,
+    "timestamp": "2026-02-26T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $300 is gone."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 118,
+    "timestamp": "2026-02-26T11:35:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: an online retailer confirmed my refund of $900 was issued 5 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 119,
+    "timestamp": "2026-02-27T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Citi debit card fails every single time with error code 2214. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 120,
+    "timestamp": "2026-02-27T17:15:00Z",
+    "source": "Tickets",
+    "feedback": "ID verification keeps failing: I've submitted my driver's license photo 5 times now and it keeps getting rejected with no reason given. How do I fix this?"
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 121,
+    "timestamp": "2026-02-27T18:21:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $1800 to my sister 21 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 122,
+    "timestamp": "2026-02-28T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Refund for a canceled order never came through even though a subscription service confirmed it on their end 18 days ago."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 123,
+    "timestamp": "2026-02-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $450 to my sister and the transfer has been 'pending' for 5 days. Money already left my PNC account so now I'm out $450 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 124,
+    "timestamp": "2026-03-01T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my US Bank debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 125,
+    "timestamp": "2026-03-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Been using this for two years to split car payment with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 126,
+    "timestamp": "2026-03-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $600 to my sister and the transfer has been 'pending' for 19 days. Money already left my Wells Fargo account so now I'm out $600 with nothing to show for it."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 127,
+    "timestamp": "2026-03-03T19:12:00Z",
+    "source": "Tickets",
+    "feedback": "Balance shows wrong amount briefly: When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my Android phone. Kind of alarming."
+  },
+  {
+    "category": [
+      "Usability & UX",
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 128,
+    "timestamp": "2026-03-03T20:43:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: dark mode: Could you add dark mode? I've been wanting this for a while, it would save me a lot of time managing my car payment payments."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 129,
+    "timestamp": "2026-03-04T00:00:00Z",
+    "source": "Survey",
+    "feedback": "spending insights, please, and maybe spending insights too."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 130,
+    "timestamp": "2026-03-04T00:00:00Z",
+    "source": "Survey",
+    "feedback": "multi-currency support, please, and maybe transaction categorization too."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 131,
+    "timestamp": "2026-03-04T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $200 is gone."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 132,
+    "timestamp": "2026-03-05T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Refund for a canceled order never came through even though an online retailer confirmed it on their end 20 days ago."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 133,
+    "timestamp": "2026-03-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Please add biometric login, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 134,
+    "timestamp": "2026-03-07T11:25:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after logging in from a new device and I've had no response from the verification team in 9 days. I need access to pay my rent."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 135,
+    "timestamp": "2026-03-08T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 14 days and nobody can tell me why. I have rent money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 136,
+    "timestamp": "2026-03-08T12:18:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $750 to my sister 16 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 137,
+    "timestamp": "2026-03-08T13:37:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.75% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 138,
+    "timestamp": "2026-03-08T14:35:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 20 days: I opened a dispute for an item that never arrived from a ticketing site and it's been open for 20 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 139,
+    "timestamp": "2026-03-09T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 17 days over what turned out to be updating my phone number. Pretty stressful."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 140,
+    "timestamp": "2026-03-09T10:04:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $400 to my sister 19 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 141,
+    "timestamp": "2026-03-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $200 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 142,
+    "timestamp": "2026-03-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 21 days and nobody can tell me why. I have tuition money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 143,
+    "timestamp": "2026-03-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 14 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 144,
+    "timestamp": "2026-03-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my my credit union debit card fails every single time with error code 5590. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 145,
+    "timestamp": "2026-03-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $1500 to my sister and the transfer has been 'pending' for 19 days. Money already left my my credit union account so now I'm out $1500 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 146,
+    "timestamp": "2026-03-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 1.75% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 147,
+    "timestamp": "2026-03-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $600 is gone."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 148,
+    "timestamp": "2026-03-14T14:15:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 12 days: I opened a dispute for an item that never arrived from an online retailer and it's been open for 12 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 149,
+    "timestamp": "2026-03-14T19:05:00Z",
+    "source": "Tickets",
+    "feedback": "Balance shows wrong amount briefly: When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my iPad. Kind of alarming."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 150,
+    "timestamp": "2026-03-14T19:41:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after logging in from a new device and I've had no response from the verification team in 5 days. I need access to pay my utility bill."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 151,
+    "timestamp": "2026-03-15T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 14 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 152,
+    "timestamp": "2026-03-16T09:40:00Z",
+    "source": "Tickets",
+    "feedback": "Can't find routing number in the app: I still can't figure out where to find my routing and account number without searching online. It shouldn't take 27 minutes to find."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 153,
+    "timestamp": "2026-03-16T18:37:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my tuition issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 154,
+    "timestamp": "2026-03-17T20:39:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $900 increase."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 155,
+    "timestamp": "2026-03-18T00:00:00Z",
+    "source": "Survey",
+    "feedback": "budgeting tools, please, and maybe recurring payments too."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 156,
+    "timestamp": "2026-03-18T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for utility bill and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 157,
+    "timestamp": "2026-03-19T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Instant transfer fee jumped from 1.5% to 2.5% with zero notice."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 158,
+    "timestamp": "2026-03-19T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Please add export to CSV, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 159,
+    "timestamp": "2026-03-19T10:27:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $2200 increase."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 160,
+    "timestamp": "2026-03-19T12:55:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my grocery issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 161,
+    "timestamp": "2026-03-19T13:44:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after logging in from a new device and I've had no response from the verification team in 9 days. I need access to pay my paycheck."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 162,
+    "timestamp": "2026-03-20T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 6 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 163,
+    "timestamp": "2026-03-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $300 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 164,
+    "timestamp": "2026-03-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 51 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 165,
+    "timestamp": "2026-03-21T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 21 days over what turned out to be changing my mailing address. Pretty stressful."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 166,
+    "timestamp": "2026-03-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 45 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 167,
+    "timestamp": "2026-03-21T16:43:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my Citi debit card I get error code 7745. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 168,
+    "timestamp": "2026-03-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 13 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 169,
+    "timestamp": "2026-03-22T00:00:00Z",
+    "source": "Survey",
+    "feedback": "A built in way to do multi-currency support would save me so much time every month."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 170,
+    "timestamp": "2026-03-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 8 days and nobody can tell me why. I have car payment money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 171,
+    "timestamp": "2026-03-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for tuition and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 172,
+    "timestamp": "2026-03-22T20:37:00Z",
+    "source": "Tickets",
+    "feedback": "Still waiting on hold: I've been on hold for over 15 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?"
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 173,
+    "timestamp": "2026-03-26T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Instant transfer fee jumped from 2% to 2.25% with zero notice."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 174,
+    "timestamp": "2026-03-26T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Please add spending insights, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 175,
+    "timestamp": "2026-03-26T08:15:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $750 to my sister 18 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 176,
+    "timestamp": "2026-03-27T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $375. Way too much friction."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 177,
+    "timestamp": "2026-03-27T10:23:00Z",
+    "source": "Tickets",
+    "feedback": "Unauthorized $750 transaction: There is a transaction I did not make for $750 sent to an account I don't recognize. I want this investigated and reversed immediately."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 178,
+    "timestamp": "2026-03-27T15:05:00Z",
+    "source": "Tickets",
+    "feedback": "Can't find routing number in the app: I still can't figure out where to find my routing and account number without searching online. It shouldn't take 21 minutes to find."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 179,
+    "timestamp": "2026-03-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "App crashes every time I try to open my transaction history on my iPad. Been happening since the last update, completely unusable now."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 180,
+    "timestamp": "2026-03-28T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $600 transfer once took 11 days longer than expected."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 181,
+    "timestamp": "2026-03-29T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 39 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 182,
+    "timestamp": "2026-03-29T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $650 to my sister and the transfer has been 'pending' for 16 days. Money already left my PNC account so now I'm out $650 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 183,
+    "timestamp": "2026-03-29T08:00:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $650 to my sister 18 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Usability & UX",
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 184,
+    "timestamp": "2026-03-29T10:29:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: dark mode: Could you add dark mode? I've been wanting this for a while, it would save me a lot of time managing my medical bill payments."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 185,
+    "timestamp": "2026-03-30T13:48:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: transaction categorization: Could you add transaction categorization? I've been wanting this for a while, it would save me a lot of time managing my rent payments."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 186,
+    "timestamp": "2026-03-31T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my PNC debit card fails every single time with error code 2214. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 187,
+    "timestamp": "2026-03-31T10:08:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my my credit union debit card I get error code 4021. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 188,
+    "timestamp": "2026-04-01T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $300 to my sister and the transfer has been 'pending' for 11 days. Money already left my Bank of America account so now I'm out $300 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 189,
+    "timestamp": "2026-04-01T16:44:00Z",
+    "source": "Tickets",
+    "feedback": "Direct deposit missing: My direct deposit didn't show up on payday even though my employer confirmed it was sent 5 days early like usual. Had to scramble to cover my medical bill."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 190,
+    "timestamp": "2026-04-02T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my Wells Fargo account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 191,
+    "timestamp": "2026-04-02T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my PNC account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 192,
+    "timestamp": "2026-04-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $400 to my sister and the transfer has been 'pending' for 6 days. Money already left my Wells Fargo account so now I'm out $400 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 193,
+    "timestamp": "2026-04-03T17:42:00Z",
+    "source": "Tickets",
+    "feedback": "Can't find routing number in the app: I still can't figure out where to find my routing and account number without searching online. It shouldn't take 24 minutes to find."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 194,
+    "timestamp": "2026-04-05T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 18 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 195,
+    "timestamp": "2026-04-05T20:42:00Z",
+    "source": "Tickets",
+    "feedback": "Unauthorized $250 transaction: There is a transaction I did not make for $250 sent to an account I don't recognize. I want this investigated and reversed immediately."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 196,
+    "timestamp": "2026-04-06T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my Bank of America account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 197,
+    "timestamp": "2026-04-07T11:11:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: an online retailer confirmed my refund of $250 was issued 6 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 198,
+    "timestamp": "2026-04-08T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 3 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 199,
+    "timestamp": "2026-04-08T13:20:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after updating my phone number and I've had no response from the verification team in 9 days. I need access to pay my tuition."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 200,
+    "timestamp": "2026-04-09T00:00:00Z",
+    "source": "Survey",
+    "feedback": "I disputed a payment to a local store who never shipped my item. It's been 17 days and the dispute status still just says 'in progress.'"
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 201,
+    "timestamp": "2026-04-09T08:48:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my car payment issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 202,
+    "timestamp": "2026-04-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 48 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 203,
+    "timestamp": "2026-04-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 11 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 204,
+    "timestamp": "2026-04-10T19:10:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: a subscription service confirmed my refund of $400 was issued 15 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 205,
+    "timestamp": "2026-04-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $750 is gone."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 206,
+    "timestamp": "2026-04-11T09:10:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my utility bill issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 207,
+    "timestamp": "2026-04-11T17:38:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.5% instead of the usual 1.5% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 208,
+    "timestamp": "2026-04-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 18 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 209,
+    "timestamp": "2026-04-13T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Locked out of my account with no warning after logging in from a new device. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 210,
+    "timestamp": "2026-04-13T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "I disputed a payment to a seller who never shipped my item. It's been 11 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 211,
+    "timestamp": "2026-04-13T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $800 is gone."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 212,
+    "timestamp": "2026-04-13T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $300 to my sister and the transfer has been 'pending' for 14 days. Money already left my Wells Fargo account so now I'm out $300 with nothing to show for it."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 213,
+    "timestamp": "2026-04-13T10:28:00Z",
+    "source": "Tickets",
+    "feedback": "App keeps crashing on transaction history: Since the latest update the app crashes every single time I open my transaction history tab on my iPhone. Happens on both wifi and cellular."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 214,
+    "timestamp": "2026-04-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Citi debit card fails every single time with error code 5590. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 215,
+    "timestamp": "2026-04-14T13:49:00Z",
+    "source": "Tickets",
+    "feedback": "Locked out after password reset: I reset my password like the email said but now I get 'account locked' every time I try to log in. It's been 4 days."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 216,
+    "timestamp": "2026-04-15T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 16 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 217,
+    "timestamp": "2026-04-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $2200 is gone."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 218,
+    "timestamp": "2026-04-16T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Instant transfer fee jumped from 1.75% to 2.5% with zero notice."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 219,
+    "timestamp": "2026-04-16T18:46:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my medical bill issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 220,
+    "timestamp": "2026-04-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "I disputed a payment to a seller who never shipped my item. It's been 6 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 221,
+    "timestamp": "2026-04-18T18:21:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.25% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 222,
+    "timestamp": "2026-04-19T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 6 days over what turned out to be a large deposit. Pretty stressful."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 223,
+    "timestamp": "2026-04-19T14:44:00Z",
+    "source": "Tickets",
+    "feedback": "Quick thanks for resolving my case: Just wanted to say the support team resolved my paycheck issue faster than I expected, appreciate it."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 224,
+    "timestamp": "2026-04-20T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Chase debit card fails every single time with error code 3088. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 225,
+    "timestamp": "2026-04-20T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Make it clearer why a transfer is delayed instead of just saying pending with no details."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 226,
+    "timestamp": "2026-04-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $1000 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 227,
+    "timestamp": "2026-04-21T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 9 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 228,
+    "timestamp": "2026-04-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $500. Way too much friction."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 229,
+    "timestamp": "2026-04-23T10:11:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $1500 to a friend 9 days ago and it's still showing pending even though the money already left my PNC account."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 230,
+    "timestamp": "2026-04-24T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "App crashes every time I try to open my transaction history on my the web app. Been happening since the last update, completely unusable now."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 231,
+    "timestamp": "2026-04-24T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 1.5% to 2.5% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 232,
+    "timestamp": "2026-04-24T12:42:00Z",
+    "source": "Tickets",
+    "feedback": "Account under review with no timeline: I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 5 days."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 233,
+    "timestamp": "2026-04-25T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my my credit union debit card fails every single time with error code 1187. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 234,
+    "timestamp": "2026-04-25T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for car payment and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 235,
+    "timestamp": "2026-04-25T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 11 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 236,
+    "timestamp": "2026-04-25T15:58:00Z",
+    "source": "Tickets",
+    "feedback": "Direct deposit missing: My direct deposit didn't show up on payday even though my employer confirmed it was sent 15 days early like usual. Had to scramble to cover my car payment."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 237,
+    "timestamp": "2026-04-26T14:01:00Z",
+    "source": "Tickets",
+    "feedback": "Can't find routing number in the app: I still can't figure out where to find my routing and account number without searching online. It shouldn't take 30 minutes to find."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 238,
+    "timestamp": "2026-04-27T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a subscription service confirmed it on their end. Support said to 'wait 5-7 business days' 5 days ago."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 239,
+    "timestamp": "2026-04-27T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $2200 to my sister and the transfer has been 'pending' for 5 days. Money already left my PNC account so now I'm out $2200 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 240,
+    "timestamp": "2026-04-27T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $1500 to my sister and the transfer has been 'pending' for 8 days. Money already left my Wells Fargo account so now I'm out $1500 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 241,
+    "timestamp": "2026-04-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $1200. Way too much friction."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 242,
+    "timestamp": "2026-04-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 1.5% to 2.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 243,
+    "timestamp": "2026-04-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $375 to my sister and the transfer has been 'pending' for 10 days. Money already left my my credit union account so now I'm out $375 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 244,
+    "timestamp": "2026-04-28T14:10:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $200 to my sister 16 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 245,
+    "timestamp": "2026-04-28T15:45:00Z",
+    "source": "Tickets",
+    "feedback": "Phishing text pretending to be support: I got a text pretending to be your fraud team asking me to verify my card number. Wanted to flag this in case others are getting the same scam."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 246,
+    "timestamp": "2026-04-29T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Bank of America debit card fails every single time with error code 1187. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 247,
+    "timestamp": "2026-04-29T09:47:00Z",
+    "source": "Tickets",
+    "feedback": "Can't find routing number in the app: I still can't figure out where to find my routing and account number without searching online. It shouldn't take 18 minutes to find."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 248,
+    "timestamp": "2026-04-29T16:00:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $800 increase."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 249,
+    "timestamp": "2026-04-29T20:58:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.25% instead of the usual 1.5% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 250,
+    "timestamp": "2026-04-30T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $450. Way too much friction."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 251,
+    "timestamp": "2026-04-30T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $600 transfer once took 9 days longer than expected."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 252,
+    "timestamp": "2026-04-30T07:03:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: a local store confirmed my refund of $1200 was issued 6 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 253,
+    "timestamp": "2026-05-01T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Bank of America debit card fails every single time with error code 3088. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 254,
+    "timestamp": "2026-05-01T19:13:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 1.75% instead of the usual 1.5% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 255,
+    "timestamp": "2026-05-02T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 8 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 256,
+    "timestamp": "2026-05-02T08:07:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: recurring payments: Could you add recurring payments? I've been wanting this for a while, it would save me a lot of time managing my tuition payments."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 257,
+    "timestamp": "2026-05-03T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $250 transfer once took 13 days longer than expected."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 258,
+    "timestamp": "2026-05-03T17:46:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: spending insights: Could you add spending insights? I've been wanting this for a while, it would save me a lot of time managing my paycheck payments."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 259,
+    "timestamp": "2026-05-03T19:43:00Z",
+    "source": "Tickets",
+    "feedback": "Account under review with no timeline: I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 14 days."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 260,
+    "timestamp": "2026-05-04T14:56:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $900 to a friend 11 days ago and it's still showing pending even though the money already left my Citi account."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 261,
+    "timestamp": "2026-05-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 7 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 262,
+    "timestamp": "2026-05-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 10 days ago."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 263,
+    "timestamp": "2026-05-05T20:12:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $200 to a friend 16 days ago and it's still showing pending even though the money already left my my credit union account."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 264,
+    "timestamp": "2026-05-06T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Sent money to my roommate for medical bill and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 265,
+    "timestamp": "2026-05-06T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 1.75% to 2% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 266,
+    "timestamp": "2026-05-06T11:02:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $150 increase."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 267,
+    "timestamp": "2026-05-06T14:49:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $150 to a friend 6 days ago and it's still showing pending even though the money already left my Citi account."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 268,
+    "timestamp": "2026-05-07T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 17 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 269,
+    "timestamp": "2026-05-08T10:15:00Z",
+    "source": "Tickets",
+    "feedback": "Can't find routing number in the app: I still can't figure out where to find my routing and account number without searching online. It shouldn't take 33 minutes to find."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 270,
+    "timestamp": "2026-05-08T12:21:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $1000 to a friend 10 days ago and it's still showing pending even though the money already left my Capital One account."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "neutral",
+    "id": 271,
+    "timestamp": "2026-05-10T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Sending money to family has been mostly smooth, though a $900 transfer once took 3 days longer than expected."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 272,
+    "timestamp": "2026-05-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 15 days and nobody can tell me why. I have grocery money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 273,
+    "timestamp": "2026-05-10T08:57:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 274,
+    "timestamp": "2026-05-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $600 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 275,
+    "timestamp": "2026-05-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 5 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Feature Requests",
+      "Usability & UX"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 276,
+    "timestamp": "2026-05-13T00:00:00Z",
+    "source": "Survey",
+    "feedback": "recurring payments, please, and maybe dark mode too."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 277,
+    "timestamp": "2026-05-13T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Overall pretty happy, the redesign made things easier to find on my Android phone."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 278,
+    "timestamp": "2026-05-13T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 33 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 279,
+    "timestamp": "2026-05-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Locked out of my account with no warning after a wire transfer from my employer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 280,
+    "timestamp": "2026-05-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Bank of America debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 281,
+    "timestamp": "2026-05-14T11:42:00Z",
+    "source": "Tickets",
+    "feedback": "ID verification keeps failing: I've submitted my driver's license photo 10 times now and it keeps getting rejected with no reason given. How do I fix this?"
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 282,
+    "timestamp": "2026-05-15T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 7 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 283,
+    "timestamp": "2026-05-15T18:56:00Z",
+    "source": "Tickets",
+    "feedback": "Still waiting on hold: I've been on hold for over 51 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?"
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 284,
+    "timestamp": "2026-05-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 2% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 285,
+    "timestamp": "2026-05-20T12:27:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my Chase debit card I get error code 4021. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 286,
+    "timestamp": "2026-05-21T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my Capital One debit card fails every single time with error code 7745. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 287,
+    "timestamp": "2026-05-21T19:08:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2% instead of the usual 2% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 288,
+    "timestamp": "2026-05-22T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 21 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 289,
+    "timestamp": "2026-05-22T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Overall pretty happy, the redesign made things easier to find on my iPad."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 290,
+    "timestamp": "2026-05-22T11:59:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: multi-currency support: Could you add multi-currency support? I've been wanting this for a while, it would save me a lot of time managing my grocery payments."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 291,
+    "timestamp": "2026-05-23T14:28:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer never arrived: Sent $250 to my sister 6 days ago, she still hasn't received it and the app just says 'processing.'"
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 292,
+    "timestamp": "2026-05-24T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a ticketing site confirmed it on their end. Support said to 'wait 5-7 business days' 21 days ago."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 293,
+    "timestamp": "2026-05-24T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $650. Way too much friction."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 294,
+    "timestamp": "2026-05-24T00:00:00Z",
+    "source": "Survey",
+    "feedback": "I disputed a payment to a ticketing site who never shipped my item. It's been 14 days and the dispute status still just says 'in progress.'"
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 295,
+    "timestamp": "2026-05-24T20:23:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after logging in from a new device and I've had no response from the verification team in 9 days. I need access to pay my medical bill."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 296,
+    "timestamp": "2026-05-25T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 2.25% to 2% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 297,
+    "timestamp": "2026-05-28T13:26:00Z",
+    "source": "Tickets",
+    "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $1000 increase."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 298,
+    "timestamp": "2026-05-30T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $1200 is gone."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 299,
+    "timestamp": "2026-05-31T13:39:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 18 days: I opened a dispute for an item that never arrived from a subscription service and it's been open for 18 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 300,
+    "timestamp": "2026-06-01T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $2200 to my sister and the transfer has been 'pending' for 16 days. Money already left my PNC account so now I'm out $2200 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 301,
+    "timestamp": "2026-06-02T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 15 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 302,
+    "timestamp": "2026-06-03T18:01:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $375 to a friend 14 days ago and it's still showing pending even though the money already left my Wells Fargo account."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 303,
+    "timestamp": "2026-06-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $250 to my sister and the transfer has been 'pending' for 5 days. Money already left my Citi account so now I'm out $250 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 304,
+    "timestamp": "2026-06-05T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $1500. Way too much friction."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 305,
+    "timestamp": "2026-06-05T00:00:00Z",
+    "source": "Survey",
+    "feedback": "I disputed a payment to a subscription service who never shipped my item. It's been 7 days and the dispute status still just says 'in progress.'"
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 306,
+    "timestamp": "2026-06-06T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 20 days and nobody can tell me why. I have car payment money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 307,
+    "timestamp": "2026-06-06T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Instant transfer fee jumped from 1.75% to 2.75% with zero notice."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 308,
+    "timestamp": "2026-06-06T16:12:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: a local store confirmed my refund of $250 was issued 6 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 309,
+    "timestamp": "2026-06-07T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Linking my PNC debit card fails every single time with error code 7745. Works fine in every other app I use."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 310,
+    "timestamp": "2026-06-08T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 20 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 311,
+    "timestamp": "2026-06-08T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $2200 to my sister and the transfer has been 'pending' for 6 days. Money already left my PNC account so now I'm out $2200 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 312,
+    "timestamp": "2026-06-08T18:12:00Z",
+    "source": "Tickets",
+    "feedback": "Debit card won't link: Every time I try to add my my credit union debit card I get error code 7745. I've tried three different cards and none work."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 313,
+    "timestamp": "2026-06-09T15:07:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: a local store confirmed my refund of $750 was issued 19 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 314,
+    "timestamp": "2026-06-09T18:45:00Z",
+    "source": "Tickets",
+    "feedback": "Account frozen with no explanation: My account was frozen after logging in from a new device and I've had no response from the verification team in 8 days. I need access to pay my paycheck."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 315,
+    "timestamp": "2026-06-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 19 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 316,
+    "timestamp": "2026-06-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $200. Way too much friction."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 317,
+    "timestamp": "2026-06-10T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 4 days and nobody can tell me why. I have car payment money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 318,
+    "timestamp": "2026-06-10T14:55:00Z",
+    "source": "Tickets",
+    "feedback": "Balance shows wrong amount briefly: When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my the web app. Kind of alarming."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 319,
+    "timestamp": "2026-06-11T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "I disputed a payment to a seller who never shipped my item. It's been 2 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 320,
+    "timestamp": "2026-06-11T00:00:00Z",
+    "source": "Survey",
+    "feedback": "I disputed a payment to a marketplace seller who never shipped my item. It's been 5 days and the dispute status still just says 'in progress.'"
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 321,
+    "timestamp": "2026-06-12T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Refund for a canceled order never came through even though a local store confirmed it on their end. Support said to 'wait 5-7 business days' 18 days ago."
+  },
+  {
+    "category": [
+      "Usability & UX"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 322,
+    "timestamp": "2026-06-12T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Overall pretty happy, the redesign made things easier to find on my iPhone."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 323,
+    "timestamp": "2026-06-12T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my my credit union account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 324,
+    "timestamp": "2026-06-14T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Instant transfer fee jumped from 1.5% to 2.25% with zero notice."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 325,
+    "timestamp": "2026-06-15T18:39:00Z",
+    "source": "Tickets",
+    "feedback": "Locked out after password reset: I reset my password like the email said but now I get 'account locked' every time I try to log in. It's been 5 days."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 326,
+    "timestamp": "2026-06-16T09:34:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 9 days: I opened a dispute for an item that never arrived from a ticketing site and it's been open for 9 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 327,
+    "timestamp": "2026-06-16T09:47:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: a local store confirmed my refund of $400 was issued 15 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Disputes & Refunds",
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 328,
+    "timestamp": "2026-06-16T10:39:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: a subscription service confirmed my refund of $900 was issued 2 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 329,
+    "timestamp": "2026-06-16T20:29:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $2200 to a friend 13 days ago and it's still showing pending even though the money already left my my credit union account."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 330,
+    "timestamp": "2026-06-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 2 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 331,
+    "timestamp": "2026-06-17T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Faster resolution on account freezes. Mine took over 2 days and support gave no timeline."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "praise",
+    "sentiment": "positive",
+    "id": 332,
+    "timestamp": "2026-06-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Been using this for two years to split paycheck with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "category": [
+      "Usability & UX",
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 333,
+    "timestamp": "2026-06-18T15:33:00Z",
+    "source": "Tickets",
+    "feedback": "Feature request: dark mode: Could you add dark mode? I've been wanting this for a while, it would save me a lot of time managing my rent payments."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 334,
+    "timestamp": "2026-06-18T17:39:00Z",
+    "source": "Tickets",
+    "feedback": "Unauthorized $450 transaction: There is a transaction I did not make for $450 sent to an account I don't recognize. I want this investigated and reversed immediately."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 335,
+    "timestamp": "2026-06-19T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $1500 to my sister and the transfer has been 'pending' for 5 days. Money already left my Citi account so now I'm out $1500 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 336,
+    "timestamp": "2026-06-19T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 2 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 337,
+    "timestamp": "2026-06-19T20:09:00Z",
+    "source": "Tickets",
+    "feedback": "ID verification keeps failing: I've submitted my driver's license photo 14 times now and it keeps getting rejected with no reason given. How do I fix this?"
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 338,
+    "timestamp": "2026-06-20T00:00:00Z",
+    "source": "Survey",
+    "feedback": "export to CSV, please, and maybe export to CSV too."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 339,
+    "timestamp": "2026-06-20T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Got locked out of my account for 4 days over what turned out to be a large deposit. Pretty stressful."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 340,
+    "timestamp": "2026-06-20T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $750 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 341,
+    "timestamp": "2026-06-21T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Refund for a canceled order never came through even though a local store confirmed it on their end 10 days ago."
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 342,
+    "timestamp": "2026-06-22T09:45:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $450 to a friend 16 days ago and it's still showing pending even though the money already left my Capital One account."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 343,
+    "timestamp": "2026-06-23T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Uploaded my ID 16 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 344,
+    "timestamp": "2026-06-23T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Someone got into my account and sent themselves $400 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 345,
+    "timestamp": "2026-06-23T09:58:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 12 days: I opened a dispute for an item that never arrived from a ticketing site and it's been open for 12 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 346,
+    "timestamp": "2026-06-23T10:49:00Z",
+    "source": "Tickets",
+    "feedback": "Refund not received: an online retailer confirmed my refund of $600 was issued 21 days ago but I still don't see it in my balance or transaction history."
+  },
+  {
+    "category": [
+      "Disputes & Refunds"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 347,
+    "timestamp": "2026-06-25T14:13:00Z",
+    "source": "Tickets",
+    "feedback": "Dispute never resolved after 20 days: I opened a dispute for an item that never arrived from a marketplace seller and it's been open for 20 days with no update. Can someone actually look at this?"
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 348,
+    "timestamp": "2026-06-27T19:10:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 1.75% instead of the usual 2% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Funding & Linking",
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 349,
+    "timestamp": "2026-06-27T19:28:00Z",
+    "source": "Tickets",
+    "feedback": "Direct deposit missing: My direct deposit didn't show up on payday even though my employer confirmed it was sent 21 days early like usual. Had to scramble to cover my utility bill."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 350,
+    "timestamp": "2026-06-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 3 days and nobody can tell me why. I have rent money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 351,
+    "timestamp": "2026-06-28T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "My account has been frozen for 10 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 352,
+    "timestamp": "2026-06-29T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my Capital One account failed twice before finally working on the third try, no idea why."
+  },
+  {
+    "category": [
+      "Transfers & Payments",
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 353,
+    "timestamp": "2026-06-29T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Tried to send $650 to my sister and the transfer has been 'pending' for 4 days. Money already left my PNC account so now I'm out $650 with nothing to show for it."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 354,
+    "timestamp": "2026-06-29T08:31:00Z",
+    "source": "Tickets",
+    "feedback": "ID verification keeps failing: I've submitted my driver's license photo 16 times now and it keeps getting rejected with no reason given. How do I fix this?"
+  },
+  {
+    "category": [
+      "Transfers & Payments"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 355,
+    "timestamp": "2026-06-29T16:51:00Z",
+    "source": "Tickets",
+    "feedback": "Transfer stuck in pending for days: I sent a payment of $300 to a friend 11 days ago and it's still showing pending even though the money already left my Capital One account."
+  },
+  {
+    "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 356,
+    "timestamp": "2026-06-30T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Waited on hold for 18 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 357,
+    "timestamp": "2026-06-30T14:22:00Z",
+    "source": "Tickets",
+    "feedback": "App keeps crashing on transaction history: Since the latest update the app crashes every single time I open my transaction history tab on my the web app. Happens on both wifi and cellular."
+  },
+  {
+    "category": [
+      "Fraud & Security"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 358,
+    "timestamp": "2026-07-02T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $500 is gone."
+  },
+  {
+    "category": [
+      "Identity Verification / KYC"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 359,
+    "timestamp": "2026-07-02T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $750. Way too much friction."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 360,
+    "timestamp": "2026-07-02T16:45:00Z",
+    "source": "Tickets",
+    "feedback": "Surprise fee on instant transfer: I was charged 2.25% instead of the usual 2% for an instant transfer and there was no warning it had changed before I confirmed."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 361,
+    "timestamp": "2026-07-03T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 9 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Feature Requests"
+    ],
+    "feedback_type": "feature_request",
+    "sentiment": "neutral",
+    "id": 362,
+    "timestamp": "2026-07-04T00:00:00Z",
+    "source": "Survey",
+    "feedback": "spending insights, please, and maybe multi-currency support too."
+  },
+  {
+    "category": [
+      "Account Access & Freezes",
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 363,
     "timestamp": "2026-07-05T00:00:00Z",
     "source": "Reviews",
     "feedback": "My account has been frozen for 9 days and nobody can tell me why. I have rent money stuck in there and support keeps sending me the same copy-paste email."
@@ -17,21 +4070,10 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 2,
+    "id": 364,
     "timestamp": "2026-07-05T09:14:00Z",
     "source": "Tickets",
     "feedback": "Account frozen with no explanation: My account was frozen after a routine transfer and I've had no response from the verification team in over a week. I need access to pay my bills."
-  },
-  {
-    "category": [
-      "Account Access & Freezes"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 3,
-    "timestamp": "2026-07-06T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Locked out of my account with no warning. Passed every verification step and it's still 'under review.' This is my only access to my paycheck."
   },
   {
     "category": [
@@ -40,7 +4082,7 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 4,
+    "id": 365,
     "timestamp": "2026-07-06T00:00:00Z",
     "source": "Survey",
     "feedback": "Faster resolution on account freezes. Mine took over a week and support gave no timeline."
@@ -51,7 +4093,18 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 5,
+    "id": 366,
+    "timestamp": "2026-07-06T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Locked out of my account with no warning. Passed every verification step and it's still 'under review.' This is my only access to my paycheck."
+  },
+  {
+    "category": [
+      "Account Access & Freezes"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 367,
     "timestamp": "2026-07-06T14:02:00Z",
     "source": "Tickets",
     "feedback": "Can't log in after password reset: I reset my password like the email said but now I get 'account locked' every time I try to log in. Please help urgently."
@@ -62,7 +4115,7 @@
     ],
     "feedback_type": "praise",
     "sentiment": "positive",
-    "id": 6,
+    "id": 368,
     "timestamp": "2026-07-07T00:00:00Z",
     "source": "Survey",
     "feedback": "Sending money to family abroad has been smooth and the exchange rate shown upfront is appreciated."
@@ -73,64 +4126,30 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 7,
+    "id": 369,
     "timestamp": "2026-07-07T11:45:00Z",
     "source": "Tickets",
     "feedback": "Transfer stuck in pending for days: I sent a payment to a friend on Tuesday and it's still showing pending on my end even though the money already left my bank."
   },
   {
     "category": [
-      "Transfers & Payments",
-      "Usability & UX"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 8,
-    "timestamp": "2026-07-08T00:00:00Z",
-    "source": "Survey",
-    "feedback": "Make it clearer why a transfer is delayed instead of just saying pending with no details."
-  },
-  {
-    "category": [
-      "Transfers & Payments"
-    ],
-    "feedback_type": "praise",
-    "sentiment": "positive",
-    "id": 9,
-    "timestamp": "2026-07-08T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check."
-  },
-  {
-    "category": [
       "Fraud & Security"
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 10,
+    "id": 370,
     "timestamp": "2026-07-08T16:20:00Z",
     "source": "Tickets",
     "feedback": "Unauthorized $600 transaction: There is a transaction I did not make for $600 sent to an account I don't recognize. I want this investigated and reversed immediately."
   },
   {
     "category": [
-      "Fraud & Security"
-    ],
-    "feedback_type": "feature_request",
-    "sentiment": "neutral",
-    "id": 11,
-    "timestamp": "2026-07-09T00:00:00Z",
-    "source": "Survey",
-    "feedback": "I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
-  },
-  {
-    "category": [
       "Transfers & Payments",
       "Fraud & Security"
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 12,
+    "id": 371,
     "timestamp": "2026-07-09T00:00:00Z",
     "source": "Reviews",
     "feedback": "Tried to send $400 to my sister and the transfer has been 'pending' for 3 days. Money left my bank account already so now I'm out $400 with nothing to show for it."
@@ -141,29 +4160,7 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 13,
-    "timestamp": "2026-07-09T10:05:00Z",
-    "source": "Tickets",
-    "feedback": "Phishing text pretending to be support: I got a text pretending to be your fraud team asking me to verify my card number. Wanted to flag this in case others are getting the same scam."
-  },
-  {
-    "category": [
-      "Identity Verification / KYC"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 14,
-    "timestamp": "2026-07-10T00:00:00Z",
-    "source": "Survey",
-    "feedback": "The verification process to unlock full features asked for way too many documents for a small limit increase."
-  },
-  {
-    "category": [
-      "Fraud & Security"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 15,
+    "id": 372,
     "timestamp": "2026-07-10T00:00:00Z",
     "source": "Reviews",
     "feedback": "Someone got into my account and sent themselves $850 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
@@ -174,7 +4171,7 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 16,
+    "id": 373,
     "timestamp": "2026-07-10T08:12:00Z",
     "source": "Tickets",
     "feedback": "Refund not received: The merchant confirmed my refund was issued over a week ago but I still don't see it in my balance or transaction history."
@@ -185,21 +4182,10 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 17,
+    "id": 374,
     "timestamp": "2026-07-10T13:33:00Z",
     "source": "Tickets",
     "feedback": "Dispute never resolved after 3 weeks: I opened a dispute for an item that never arrived and it's been open for three weeks with no update. Can someone actually look at this?"
-  },
-  {
-    "category": [
-      "Funding & Linking"
-    ],
-    "feedback_type": "bug",
-    "sentiment": "negative",
-    "id": 18,
-    "timestamp": "2026-07-11T00:00:00Z",
-    "source": "Survey",
-    "feedback": "Linking my bank account failed twice before finally working on the third try, no idea why."
   },
   {
     "category": [
@@ -207,10 +4193,21 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 19,
+    "id": 375,
     "timestamp": "2026-07-11T00:00:00Z",
     "source": "Reviews",
     "feedback": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $200 is gone. Wish the app warned people about these scams more clearly."
+  },
+  {
+    "category": [
+      "Funding & Linking"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 376,
+    "timestamp": "2026-07-11T00:00:00Z",
+    "source": "Survey",
+    "feedback": "Linking my bank account failed twice before finally working on the third try, no idea why."
   },
   {
     "category": [
@@ -218,7 +4215,7 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 20,
+    "id": 377,
     "timestamp": "2026-07-11T00:00:00Z",
     "source": "Reviews",
     "feedback": "I disputed a payment to a seller who never shipped my item. It's been three weeks and the dispute status still just says 'in progress' with zero updates."
@@ -229,7 +4226,7 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 21,
+    "id": 378,
     "timestamp": "2026-07-11T15:47:00Z",
     "source": "Tickets",
     "feedback": "ID verification keeps failing: I've submitted my driver's license photo four times now and it keeps getting rejected with no reason given. How do I fix this?"
@@ -240,7 +4237,7 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 22,
+    "id": 379,
     "timestamp": "2026-07-12T00:00:00Z",
     "source": "Reviews",
     "feedback": "Uploaded my ID three times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
@@ -252,54 +4249,21 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 23,
+    "id": 380,
     "timestamp": "2026-07-12T00:00:00Z",
     "source": "Reviews",
     "feedback": "Refund for a canceled order never came through even though the merchant confirmed it on their end. Support said to 'wait 5-7 business days' two weeks ago."
   },
   {
     "category": [
-      "Fees & Pricing"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 24,
-    "timestamp": "2026-07-12T00:00:00Z",
-    "source": "Survey",
-    "feedback": "Wish the fee was shown before I hit confirm instead of after the money is already sent."
-  },
-  {
-    "category": [
       "Identity Verification / KYC"
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 25,
+    "id": 381,
     "timestamp": "2026-07-12T09:30:00Z",
     "source": "Tickets",
     "feedback": "Why do I need this much documentation: Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $300 increase."
-  },
-  {
-    "category": [
-      "Identity Verification / KYC"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 26,
-    "timestamp": "2026-07-13T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $200. Way too much friction."
-  },
-  {
-    "category": [
-      "Customer Support"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 27,
-    "timestamp": "2026-07-13T00:00:00Z",
-    "source": "Survey",
-    "feedback": "Customer support chat felt like talking to a wall. Took forever to get a real answer."
   },
   {
     "category": [
@@ -307,7 +4271,7 @@
     ],
     "feedback_type": "bug",
     "sentiment": "negative",
-    "id": 28,
+    "id": 382,
     "timestamp": "2026-07-13T00:00:00Z",
     "source": "Reviews",
     "feedback": "Linking my Chase debit card fails every single time with a generic error code. Works fine in every other app I use."
@@ -318,7 +4282,7 @@
     ],
     "feedback_type": "bug",
     "sentiment": "negative",
-    "id": 29,
+    "id": 383,
     "timestamp": "2026-07-13T12:10:00Z",
     "source": "Tickets",
     "feedback": "Debit card won't link: Every time I try to add my bank debit card I get error code 4021. I've tried three different cards and none work."
@@ -330,10 +4294,21 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 30,
+    "id": 384,
     "timestamp": "2026-07-14T00:00:00Z",
     "source": "Reviews",
     "feedback": "Direct deposit didn't show up on payday even though my employer confirmed it was sent two days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "category": [
+      "Fees & Pricing"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 385,
+    "timestamp": "2026-07-14T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "Instant transfer fee jumped from 1.5% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
   },
   {
     "category": [
@@ -341,7 +4316,7 @@
     ],
     "feedback_type": "bug",
     "sentiment": "negative",
-    "id": 31,
+    "id": 386,
     "timestamp": "2026-07-14T00:00:00Z",
     "source": "Survey",
     "feedback": "App has been crashing a lot lately, especially when I check old transactions."
@@ -352,33 +4327,21 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 32,
-    "timestamp": "2026-07-14T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Instant transfer fee jumped from 1.5% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
-  },
-  {
-    "category": [
-      "Fees & Pricing"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 33,
+    "id": 387,
     "timestamp": "2026-07-14T17:05:00Z",
     "source": "Tickets",
     "feedback": "Surprise fee on instant transfer: I was charged a higher fee than usual for an instant transfer and there was no warning it had changed before I confirmed."
   },
   {
     "category": [
-      "Fees & Pricing",
-      "Usability & UX"
+      "Customer Support"
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 34,
+    "id": 388,
     "timestamp": "2026-07-15T00:00:00Z",
     "source": "Reviews",
-    "feedback": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+    "feedback": "Waited on hold for 40 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
   },
   {
     "category": [
@@ -386,7 +4349,7 @@
     ],
     "feedback_type": "praise",
     "sentiment": "positive",
-    "id": 35,
+    "id": 389,
     "timestamp": "2026-07-15T00:00:00Z",
     "source": "Survey",
     "feedback": "Nothing really, it does exactly what I need for splitting bills with roommates."
@@ -397,43 +4360,10 @@
     ],
     "feedback_type": "complaint",
     "sentiment": "negative",
-    "id": 36,
-    "timestamp": "2026-07-15T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Waited on hold for 40 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
-  },
-  {
-    "category": [
-      "Customer Support"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 37,
+    "id": 390,
     "timestamp": "2026-07-15T11:22:00Z",
     "source": "Tickets",
     "feedback": "Still waiting on hold: I've been on hold for over 35 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?"
-  },
-  {
-    "category": [
-      "Customer Support"
-    ],
-    "feedback_type": "praise",
-    "sentiment": "positive",
-    "id": 38,
-    "timestamp": "2026-07-16T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
-  },
-  {
-    "category": [
-      "Customer Support"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 39,
-    "timestamp": "2026-07-16T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers."
   },
   {
     "category": [
@@ -441,43 +4371,32 @@
     ],
     "feedback_type": "feature_request",
     "sentiment": "neutral",
-    "id": 40,
+    "id": 391,
     "timestamp": "2026-07-16T00:00:00Z",
     "source": "Survey",
     "feedback": "A built in way to schedule recurring payments would save me so much time every month."
   },
   {
     "category": [
+      "Customer Support"
+    ],
+    "feedback_type": "complaint",
+    "sentiment": "negative",
+    "id": 392,
+    "timestamp": "2026-07-16T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers."
+  },
+  {
+    "category": [
       "App Performance & Reliability"
     ],
     "feedback_type": "bug",
     "sentiment": "negative",
-    "id": 41,
+    "id": 393,
     "timestamp": "2026-07-16T09:55:00Z",
     "source": "Tickets",
     "feedback": "App keeps crashing on transaction history: Since the latest update the app crashes every single time I open my transaction history tab. Happens on both wifi and cellular."
-  },
-  {
-    "category": [
-      "App Performance & Reliability"
-    ],
-    "feedback_type": "bug",
-    "sentiment": "negative",
-    "id": 42,
-    "timestamp": "2026-07-17T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "App crashes every time I try to open my transaction history. Been happening since the last update, completely unusable now."
-  },
-  {
-    "category": [
-      "App Performance & Reliability"
-    ],
-    "feedback_type": "bug",
-    "sentiment": "negative",
-    "id": 43,
-    "timestamp": "2026-07-17T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
   },
   {
     "category": [
@@ -486,7 +4405,7 @@
     ],
     "feedback_type": "feature_request",
     "sentiment": "neutral",
-    "id": 44,
+    "id": 394,
     "timestamp": "2026-07-17T00:00:00Z",
     "source": "Survey",
     "feedback": "Dark mode please, and maybe the ability to categorize past transactions."
@@ -497,7 +4416,18 @@
     ],
     "feedback_type": "bug",
     "sentiment": "negative",
-    "id": 45,
+    "id": 395,
+    "timestamp": "2026-07-17T00:00:00Z",
+    "source": "Reviews",
+    "feedback": "App crashes every time I try to open my transaction history. Been happening since the last update, completely unusable now."
+  },
+  {
+    "category": [
+      "App Performance & Reliability"
+    ],
+    "feedback_type": "bug",
+    "sentiment": "negative",
+    "id": 396,
     "timestamp": "2026-07-17T14:40:00Z",
     "source": "Tickets",
     "feedback": "Balance shows wrong amount briefly: When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one. Kind of alarming."
@@ -508,77 +4438,43 @@
     ],
     "feedback_type": "praise",
     "sentiment": "positive",
-    "id": 46,
-    "timestamp": "2026-07-18T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
-  },
-  {
-    "category": [
-      "Usability & UX"
-    ],
-    "feedback_type": "praise",
-    "sentiment": "positive",
-    "id": 47,
+    "id": 397,
     "timestamp": "2026-07-18T00:00:00Z",
     "source": "Survey",
     "feedback": "Overall pretty happy, the redesign made things easier to find."
   },
   {
     "category": [
-      "Usability & UX"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "negative",
-    "id": 48,
-    "timestamp": "2026-07-18T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
-  },
-  {
-    "category": [
       "Feature Requests"
     ],
     "feedback_type": "feature_request",
     "sentiment": "neutral",
-    "id": 49,
+    "id": 398,
     "timestamp": "2026-07-18T10:15:00Z",
     "source": "Tickets",
     "feedback": "Feature request: recurring payments: Could you add a way to schedule a payment to repeat every month automatically? I send rent to the same person every time manually."
   },
   {
     "category": [
-      "Usability & UX"
-    ],
-    "feedback_type": "feature_request",
-    "sentiment": "neutral",
-    "id": 50,
-    "timestamp": "2026-07-19T00:00:00Z",
-    "source": "Reviews",
-    "feedback": "Please add a dark mode, my eyes would thank you. Otherwise the app does what I need it to do."
-  },
-  {
-    "category": [
       "Feature Requests"
     ],
     "feedback_type": "feature_request",
     "sentiment": "neutral",
-    "id": 51,
+    "id": 399,
     "timestamp": "2026-07-19T00:00:00Z",
     "source": "Reviews",
     "feedback": "Would love a way to schedule recurring payments to the same person every month instead of manually sending it each time."
   },
   {
     "category": [
-      "Transfers & Payments",
       "Usability & UX"
     ],
-    "feedback_type": "complaint",
+    "feedback_type": "feature_request",
     "sentiment": "neutral",
-    "id": 52,
-    "timestamp": "2026-07-20T00:00:00Z",
+    "id": 400,
+    "timestamp": "2026-07-19T00:00:00Z",
     "source": "Reviews",
-    "feedback": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+    "feedback": "Please add a dark mode, my eyes would thank you. Otherwise the app does what I need it to do."
   },
   {
     "category": [
@@ -586,21 +4482,10 @@
     ],
     "feedback_type": "praise",
     "sentiment": "positive",
-    "id": 53,
+    "id": 401,
     "timestamp": "2026-07-20T00:00:00Z",
     "source": "Reviews",
     "feedback": "Been using this for two years to split rent with roommates and it has never once given me trouble. Does exactly what it says on the tin."
-  },
-  {
-    "category": [
-      "Fraud & Security"
-    ],
-    "feedback_type": "complaint",
-    "sentiment": "neutral",
-    "id": 54,
-    "timestamp": "2026-07-20T00:00:00Z",
-    "source": "Survey",
-    "feedback": "Got a suspicious text claiming to be you asking to confirm my card. Might want to warn users about that scam."
   },
   {
     "category": [
@@ -609,7 +4494,7 @@
     ],
     "feedback_type": "churn_risk",
     "sentiment": "negative",
-    "id": 55,
+    "id": 402,
     "timestamp": "2026-07-20T16:30:00Z",
     "source": "Tickets",
     "feedback": "Thinking about closing my account: Between the frozen funds and the hold times I'm seriously considering moving to a different app. This is the third issue this month."
@@ -620,7 +4505,7 @@
     ],
     "feedback_type": "churn_risk",
     "sentiment": "negative",
-    "id": 56,
+    "id": 403,
     "timestamp": "2026-07-21T00:00:00Z",
     "source": "Reviews",
     "feedback": "Considering switching to a competitor after this account freeze nonsense. Two weeks with my money locked up is unacceptable for a company this size."

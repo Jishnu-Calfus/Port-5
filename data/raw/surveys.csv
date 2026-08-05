@@ -1,4 +1,169 @@
 response_id,submitted_at,question,response
+S-0001,2026-01-05,Tell us about your recent experience.,Got locked out of my account for 18 days over what turned out to be updating my phone number. Pretty stressful.
+S-0002,2026-01-06,Tell us about your recent experience.,I disputed a payment to an online retailer who never shipped my item. It's been 15 days and the dispute status still just says 'in progress.'
+S-0003,2026-01-07,Tell us about your recent experience.,"Linking my US Bank account failed twice before finally working on the third try, no idea why."
+S-0004,2026-01-08,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0005,2026-01-09,What could we improve?,Refund for a canceled order never came through even though an online retailer confirmed it on their end 17 days ago.
+S-0006,2026-01-10,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0007,2026-01-13,Tell us about your recent experience.,Got locked out of my account for 14 days over what turned out to be a large deposit. Pretty stressful.
+S-0008,2026-01-13,Tell us about your recent experience.,"App has been crashing a lot lately on my the web app, especially when I check old transactions."
+S-0009,2026-01-14,What could we improve?,Faster resolution on account freezes. Mine took over 11 days and support gave no timeline.
+S-0010,2026-01-15,Tell us about your recent experience.,Got locked out of my account for 9 days over what turned out to be updating my phone number. Pretty stressful.
+S-0011,2026-01-16,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0012,2026-01-17,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0013,2026-01-17,Tell us about your recent experience.,"App has been crashing a lot lately on my iPhone, especially when I check old transactions."
+S-0014,2026-01-19,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0015,2026-01-19,Tell us about your recent experience.,"App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+S-0016,2026-01-22,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0017,2026-01-23,Tell us about your recent experience.,"Linking my Chase account failed twice before finally working on the third try, no idea why."
+S-0018,2026-01-25,Any feature you wish we had?,"budgeting tools, please, and maybe spending insights too."
+S-0019,2026-01-27,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0020,2026-01-28,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0021,2026-01-28,Tell us about your recent experience.,Got locked out of my account for 20 days over what turned out to be updating my phone number. Pretty stressful.
+S-0022,2026-01-29,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $200 transfer once took 7 days longer than expected."
+S-0023,2026-01-29,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0024,2026-02-02,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my the web app."
+S-0025,2026-02-03,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0026,2026-02-03,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0027,2026-02-04,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0028,2026-02-06,Any concerns about security?,Got a suspicious text claiming to be you asking to confirm my card. Might want to warn users about that scam.
+S-0029,2026-02-09,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $375 transfer once took 8 days longer than expected."
+S-0030,2026-02-11,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0031,2026-02-12,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0032,2026-02-13,Tell us about your recent experience.,Got locked out of my account for 12 days over what turned out to be logging in from a new device. Pretty stressful.
+S-0033,2026-02-14,Tell us about your recent experience.,"App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+S-0034,2026-02-14,Tell us about your recent experience.,"Linking my Chase account failed twice before finally working on the third try, no idea why."
+S-0035,2026-02-17,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0036,2026-02-18,Tell us about your recent experience.,"Linking my Citi account failed twice before finally working on the third try, no idea why."
+S-0037,2026-02-22,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $500 transfer once took 14 days longer than expected."
+S-0038,2026-02-28,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0039,2026-02-28,What could we improve?,Refund for a canceled order never came through even though a subscription service confirmed it on their end 18 days ago.
+S-0040,2026-02-28,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0041,2026-03-02,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0042,2026-03-03,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0043,2026-03-03,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0044,2026-03-04,Any feature you wish we had?,"multi-currency support, please, and maybe transaction categorization too."
+S-0045,2026-03-04,Any feature you wish we had?,"spending insights, please, and maybe spending insights too."
+S-0046,2026-03-05,What could we improve?,Refund for a canceled order never came through even though an online retailer confirmed it on their end 20 days ago.
+S-0047,2026-03-07,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0048,2026-03-07,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0049,2026-03-09,Tell us about your recent experience.,Got locked out of my account for 17 days over what turned out to be updating my phone number. Pretty stressful.
+S-0050,2026-03-10,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0051,2026-03-10,Tell us about your recent experience.,"App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+S-0052,2026-03-11,Tell us about your recent experience.,"App has been crashing a lot lately on my the web app, especially when I check old transactions."
+S-0053,2026-03-12,Tell us about your recent experience.,"Linking my Chase account failed twice before finally working on the third try, no idea why."
+S-0054,2026-03-12,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my the web app."
+S-0055,2026-03-12,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0056,2026-03-12,Tell us about your recent experience.,"Linking my Chase account failed twice before finally working on the third try, no idea why."
+S-0057,2026-03-13,Tell us about your recent experience.,"App has been crashing a lot lately on my iPhone, especially when I check old transactions."
+S-0058,2026-03-14,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0059,2026-03-15,What could we improve?,Faster resolution on account freezes. Mine took over 14 days and support gave no timeline.
+S-0060,2026-03-17,Tell us about your recent experience.,"App has been crashing a lot lately on my iPhone, especially when I check old transactions."
+S-0061,2026-03-18,Any feature you wish we had?,"budgeting tools, please, and maybe recurring payments too."
+S-0062,2026-03-18,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0063,2026-03-19,Any concerns about fees?,Instant transfer fee jumped from 1.5% to 2.5% with zero notice.
+S-0064,2026-03-21,Tell us about your recent experience.,Got locked out of my account for 21 days over what turned out to be changing my mailing address. Pretty stressful.
+S-0065,2026-03-22,Any feature you wish we had?,A built in way to do multi-currency support would save me so much time every month.
+S-0066,2026-03-23,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0067,2026-03-24,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0068,2026-03-25,What could we improve?,Faster resolution on account freezes. Mine took over 11 days and support gave no timeline.
+S-0069,2026-03-25,Tell us about your recent experience.,"App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+S-0070,2026-03-26,Any concerns about fees?,Instant transfer fee jumped from 2% to 2.25% with zero notice.
+S-0071,2026-03-26,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0072,2026-03-26,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0073,2026-03-28,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $600 transfer once took 11 days longer than expected."
+S-0074,2026-03-29,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my the web app."
+S-0075,2026-03-29,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0076,2026-03-29,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0077,2026-04-02,Tell us about your recent experience.,"Linking my Wells Fargo account failed twice before finally working on the third try, no idea why."
+S-0078,2026-04-02,Tell us about your recent experience.,"Linking my PNC account failed twice before finally working on the third try, no idea why."
+S-0079,2026-04-03,Any concerns about security?,Got a suspicious text claiming to be you asking to confirm my card. Might want to warn users about that scam.
+S-0080,2026-04-03,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0081,2026-04-03,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0082,2026-04-05,What could we improve?,Faster resolution on account freezes. Mine took over 18 days and support gave no timeline.
+S-0083,2026-04-06,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0084,2026-04-06,Tell us about your recent experience.,"Linking my Citi account failed twice before finally working on the third try, no idea why."
+S-0085,2026-04-06,Tell us about your recent experience.,"Linking my Bank of America account failed twice before finally working on the third try, no idea why."
+S-0086,2026-04-08,What could we improve?,Faster resolution on account freezes. Mine took over 3 days and support gave no timeline.
+S-0087,2026-04-09,Tell us about your recent experience.,I disputed a payment to a local store who never shipped my item. It's been 17 days and the dispute status still just says 'in progress.'
+S-0088,2026-04-12,Tell us about your recent experience.,"App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+S-0089,2026-04-14,Tell us about your recent experience.,"App has been crashing a lot lately on my iPhone, especially when I check old transactions."
+S-0090,2026-04-16,Any concerns about fees?,Instant transfer fee jumped from 1.75% to 2.5% with zero notice.
+S-0091,2026-04-17,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0092,2026-04-18,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0093,2026-04-19,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my the web app."
+S-0094,2026-04-19,Tell us about your recent experience.,Got locked out of my account for 6 days over what turned out to be a large deposit. Pretty stressful.
+S-0095,2026-04-20,What could we improve?,Make it clearer why a transfer is delayed instead of just saying pending with no details.
+S-0096,2026-04-21,What could we improve?,Faster resolution on account freezes. Mine took over 9 days and support gave no timeline.
+S-0097,2026-04-22,What could we improve?,Make it clearer why a transfer is delayed instead of just saying pending with no details.
+S-0098,2026-04-24,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0099,2026-04-25,Tell us about your recent experience.,"Linking my Citi account failed twice before finally working on the third try, no idea why."
+S-0100,2026-04-26,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0101,2026-04-27,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0102,2026-04-27,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0103,2026-04-29,Any concerns about fees?,Instant transfer fee jumped from 1.75% to 2.5% with zero notice.
+S-0104,2026-04-29,What could we improve?,Make it clearer why a transfer is delayed instead of just saying pending with no details.
+S-0105,2026-04-29,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0106,2026-04-30,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $600 transfer once took 9 days longer than expected."
+S-0107,2026-05-03,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0108,2026-05-03,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $250 transfer once took 13 days longer than expected."
+S-0109,2026-05-04,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0110,2026-05-07,What could we improve?,Faster resolution on account freezes. Mine took over 17 days and support gave no timeline.
+S-0111,2026-05-07,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0112,2026-05-08,Any feature you wish we had?,"spending insights, please, and maybe spending insights too."
+S-0113,2026-05-09,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0114,2026-05-10,Tell us about your recent experience.,"Sending money to family has been mostly smooth, though a $900 transfer once took 3 days longer than expected."
+S-0115,2026-05-10,Any concerns about security?,Got a suspicious text claiming to be you asking to confirm my card. Might want to warn users about that scam.
+S-0116,2026-05-11,Tell us about your recent experience.,"App has been crashing a lot lately on my iPad, especially when I check old transactions."
+S-0117,2026-05-13,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0118,2026-05-13,Any feature you wish we had?,"recurring payments, please, and maybe dark mode too."
+S-0119,2026-05-13,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my Android phone."
+S-0120,2026-05-13,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0121,2026-05-20,Tell us about your recent experience.,"Linking my US Bank account failed twice before finally working on the third try, no idea why."
+S-0122,2026-05-21,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0123,2026-05-21,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my Android phone."
+S-0124,2026-05-21,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0125,2026-05-22,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my iPad."
+S-0126,2026-05-22,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0127,2026-05-23,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my iPad."
+S-0128,2026-05-24,Tell us about your recent experience.,I disputed a payment to a ticketing site who never shipped my item. It's been 14 days and the dispute status still just says 'in progress.'
+S-0129,2026-05-25,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0130,2026-05-26,What could we improve?,Faster resolution on account freezes. Mine took over 9 days and support gave no timeline.
+S-0131,2026-05-27,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0132,2026-05-28,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my Android phone."
+S-0133,2026-05-31,Tell us about your recent experience.,"Linking my Bank of America account failed twice before finally working on the third try, no idea why."
+S-0134,2026-06-02,What could we improve?,Faster resolution on account freezes. Mine took over 15 days and support gave no timeline.
+S-0135,2026-06-04,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0136,2026-06-05,Tell us about your recent experience.,I disputed a payment to a subscription service who never shipped my item. It's been 7 days and the dispute status still just says 'in progress.'
+S-0137,2026-06-05,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0138,2026-06-06,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0139,2026-06-06,Any concerns about fees?,Instant transfer fee jumped from 1.75% to 2.75% with zero notice.
+S-0140,2026-06-09,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my Android phone."
+S-0141,2026-06-11,Tell us about your recent experience.,I disputed a payment to a marketplace seller who never shipped my item. It's been 5 days and the dispute status still just says 'in progress.'
+S-0142,2026-06-12,Tell us about your recent experience.,"Linking my my credit union account failed twice before finally working on the third try, no idea why."
+S-0143,2026-06-12,Any concerns about security?,"I'd feel safer if there was two factor authentication required for every new device login, not just sometimes."
+S-0144,2026-06-12,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my iPhone."
+S-0145,2026-06-14,Any concerns about fees?,Instant transfer fee jumped from 1.5% to 2.25% with zero notice.
+S-0146,2026-06-17,What could we improve?,Faster resolution on account freezes. Mine took over 2 days and support gave no timeline.
+S-0147,2026-06-17,Tell us about your recent experience.,Got locked out of my account for 6 days over what turned out to be a large deposit. Pretty stressful.
+S-0148,2026-06-18,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0149,2026-06-20,Tell us about your recent experience.,Got locked out of my account for 4 days over what turned out to be a large deposit. Pretty stressful.
+S-0150,2026-06-20,Any feature you wish we had?,"export to CSV, please, and maybe export to CSV too."
+S-0151,2026-06-21,What could we improve?,Refund for a canceled order never came through even though a local store confirmed it on their end 10 days ago.
+S-0152,2026-06-21,Tell us about your recent experience.,"Nothing really to improve, it does exactly what I need for splitting bills with roommates."
+S-0153,2026-06-22,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0154,2026-06-22,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
+S-0155,2026-06-23,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my iPhone."
+S-0156,2026-06-23,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0157,2026-06-26,What could we improve?,The verification process to unlock full features asked for way too many documents for a small limit increase.
+S-0158,2026-06-28,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0159,2026-06-28,Tell us about your recent experience.,"Overall pretty happy, the redesign made things easier to find on my the web app."
+S-0160,2026-06-29,Tell us about your recent experience.,"Linking my Capital One account failed twice before finally working on the third try, no idea why."
+S-0161,2026-07-02,What could we improve?,Customer support chat felt like talking to a wall. Took forever to get a real answer.
+S-0162,2026-07-03,Tell us about your recent experience.,"App has been crashing a lot lately on my Android phone, especially when I check old transactions."
+S-0163,2026-07-03,What could we improve?,Make it clearer why a transfer is delayed instead of just saying pending with no details.
+S-0164,2026-07-04,Any feature you wish we had?,"spending insights, please, and maybe multi-currency support too."
+S-0165,2026-07-04,Any concerns about fees?,Wish the fee was shown before I hit confirm instead of after the money is already sent.
 S-2001,2026-07-06,What could we improve?,"Faster resolution on account freezes. Mine took over a week and support gave no timeline."
 S-2002,2026-07-07,Tell us about your recent experience.,"Sending money to family abroad has been smooth and the exchange rate shown upfront is appreciated."
 S-2003,2026-07-08,What could we improve?,"Make it clearer why a transfer is delayed instead of just saying pending with no details."

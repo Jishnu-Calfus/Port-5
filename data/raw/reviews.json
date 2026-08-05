@@ -1,28 +1,1507 @@
 [
-  {"rating": 1, "date": "2026-07-05", "text": "My account has been frozen for 9 days and nobody can tell me why. I have rent money stuck in there and support keeps sending me the same copy-paste email."},
-  {"rating": 1, "date": "2026-07-06", "text": "Locked out of my account with no warning. Passed every verification step and it's still 'under review.' This is my only access to my paycheck."},
-  {"rating": 5, "date": "2026-07-08", "text": "Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check."},
-  {"rating": 1, "date": "2026-07-09", "text": "Tried to send $400 to my sister and the transfer has been 'pending' for 3 days. Money left my bank account already so now I'm out $400 with nothing to show for it."},
-  {"rating": 1, "date": "2026-07-10", "text": "Someone got into my account and sent themselves $850 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."},
-  {"rating": 1, "date": "2026-07-11", "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $200 is gone. Wish the app warned people about these scams more clearly."},
-  {"rating": 2, "date": "2026-07-11", "text": "I disputed a payment to a seller who never shipped my item. It's been three weeks and the dispute status still just says 'in progress' with zero updates."},
-  {"rating": 2, "date": "2026-07-12", "text": "Refund for a canceled order never came through even though the merchant confirmed it on their end. Support said to 'wait 5-7 business days' two weeks ago."},
-  {"rating": 1, "date": "2026-07-12", "text": "Uploaded my ID three times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."},
-  {"rating": 2, "date": "2026-07-13", "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $200. Way too much friction."},
-  {"rating": 1, "date": "2026-07-13", "text": "Linking my Chase debit card fails every single time with a generic error code. Works fine in every other app I use."},
-  {"rating": 2, "date": "2026-07-14", "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent two days early like usual. Had to scramble to cover bills."},
-  {"rating": 1, "date": "2026-07-14", "text": "Instant transfer fee jumped from 1.5% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."},
-  {"rating": 2, "date": "2026-07-15", "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."},
-  {"rating": 1, "date": "2026-07-15", "text": "Waited on hold for 40 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."},
-  {"rating": 5, "date": "2026-07-16", "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."},
-  {"rating": 1, "date": "2026-07-16", "text": "There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers."},
-  {"rating": 1, "date": "2026-07-17", "text": "App crashes every time I try to open my transaction history. Been happening since the last update, completely unusable now."},
-  {"rating": 2, "date": "2026-07-17", "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."},
-  {"rating": 4, "date": "2026-07-18", "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."},
-  {"rating": 2, "date": "2026-07-18", "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."},
-  {"rating": 3, "date": "2026-07-19", "text": "Would love a way to schedule recurring payments to the same person every month instead of manually sending it each time."},
-  {"rating": 4, "date": "2026-07-19", "text": "Please add a dark mode, my eyes would thank you. Otherwise the app does what I need it to do."},
-  {"rating": 5, "date": "2026-07-20", "text": "Been using this for two years to split rent with roommates and it has never once given me trouble. Does exactly what it says on the tin."},
-  {"rating": 3, "date": "2026-07-20", "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."},
-  {"rating": 1, "date": "2026-07-21", "text": "Considering switching to a competitor after this account freeze nonsense. Two weeks with my money locked up is unacceptable for a company this size."}
+  {
+    "rating": 1,
+    "date": "2026-01-07",
+    "text": "Waited on hold for 15 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-07",
+    "text": "My account has been frozen for 14 days and nobody can tell me why. I have medical bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-07",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-08",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $375 is gone."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-08",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-09",
+    "text": "Locked out of my account with no warning after a routine transfer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-09",
+    "text": "Locked out of my account with no warning after changing my mailing address. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 3,
+    "date": "2026-01-10",
+    "text": "Would love recurring payments. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-10",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 3,
+    "date": "2026-01-10",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-11",
+    "text": "Instant transfer fee jumped from 2.25% to 2.25% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-11",
+    "text": "Been using this for two years to split grocery with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-12",
+    "text": "Been using this for two years to split utility bill with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-12",
+    "text": "My account has been frozen for 17 days and nobody can tell me why. I have medical bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-13",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-16",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $600. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-16",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $1000 is gone."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-16",
+    "text": "Instant transfer fee jumped from 2% to 2.25% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-16",
+    "text": "Sent money to my roommate for grocery and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-18",
+    "text": "App crashes every time I try to open my transaction history on my Android phone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-18",
+    "text": "App crashes every time I try to open my transaction history on my Android phone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-19",
+    "text": "Been using this for two years to split tuition with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-19",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 15 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 4,
+    "date": "2026-01-21",
+    "text": "Please add multi-currency support, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-21",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-21",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-22",
+    "text": "Refund for a canceled order never came through even though a subscription service confirmed it on their end. Support said to 'wait 5-7 business days' 11 days ago."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-23",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-25",
+    "text": "App crashes every time I try to open my transaction history on my iPhone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-26",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 21 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-26",
+    "text": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 21 days ago."
+  },
+  {
+    "rating": 4,
+    "date": "2026-01-26",
+    "text": "Please add recurring payments, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-28",
+    "text": "Someone got into my account and sent themselves $500 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 2,
+    "date": "2026-01-28",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 5,
+    "date": "2026-01-29",
+    "text": "Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-01-30",
+    "text": "Locked out of my account with no warning after updating my phone number. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-01",
+    "text": "Tried to send $650 to my sister and the transfer has been 'pending' for 9 days. Money already left my Citi account so now I'm out $650 with nothing to show for it."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-01",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 20 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 3,
+    "date": "2026-02-03",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-03",
+    "text": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 15 days ago."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-03",
+    "text": "Locked out of my account with no warning after changing my mailing address. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-03",
+    "text": "Someone got into my account and sent themselves $1500 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 4,
+    "date": "2026-02-03",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-03",
+    "text": "Waited on hold for 12 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-04",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-04",
+    "text": "My account has been frozen for 17 days and nobody can tell me why. I have rent money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-04",
+    "text": "Waited on hold for 36 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-05",
+    "text": "Uploaded my ID 4 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-05",
+    "text": "Refund for a canceled order never came through even though a local store confirmed it on their end. Support said to 'wait 5-7 business days' 5 days ago."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-06",
+    "text": "My account has been frozen for 2 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 3,
+    "date": "2026-02-07",
+    "text": "Would love export to CSV. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-09",
+    "text": "Refund for a canceled order never came through even though a local store confirmed it on their end. Support said to 'wait 5-7 business days' 11 days ago."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-10",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 4,
+    "date": "2026-02-10",
+    "text": "Please add budgeting tools, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 3,
+    "date": "2026-02-11",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-11",
+    "text": "Tried to send $150 to my sister and the transfer has been 'pending' for 5 days. Money already left my Chase account so now I'm out $150 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-11",
+    "text": "Uploaded my ID 4 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-12",
+    "text": "Uploaded my ID 8 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-13",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $900 is gone."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-14",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 20 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-14",
+    "text": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 16 days ago."
+  },
+  {
+    "rating": 3,
+    "date": "2026-02-15",
+    "text": "Would love multi-currency support. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-16",
+    "text": "Tried to send $1000 to my sister and the transfer has been 'pending' for 9 days. Money already left my Citi account so now I'm out $1000 with nothing to show for it."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-17",
+    "text": "Refund for a canceled order never came through even though a marketplace seller confirmed it on their end. Support said to 'wait 5-7 business days' 15 days ago."
+  },
+  {
+    "rating": 5,
+    "date": "2026-02-17",
+    "text": "Been using this for two years to split medical bill with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-18",
+    "text": "Tried to send $600 to my sister and the transfer has been 'pending' for 10 days. Money already left my Capital One account so now I'm out $600 with nothing to show for it."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-19",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-21",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-22",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $250. Way too much friction."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-23",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 3,
+    "date": "2026-02-24",
+    "text": "Would love export to CSV. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-24",
+    "text": "Linking my Wells Fargo debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "rating": 5,
+    "date": "2026-02-24",
+    "text": "Sent money to my roommate for paycheck and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 2,
+    "date": "2026-02-25",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 3 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-26",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $300 is gone."
+  },
+  {
+    "rating": 5,
+    "date": "2026-02-27",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 4,
+    "date": "2026-02-27",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-27",
+    "text": "Linking my Citi debit card fails every single time with error code 2214. Works fine in every other app I use."
+  },
+  {
+    "rating": 3,
+    "date": "2026-02-27",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-02-28",
+    "text": "Tried to send $450 to my sister and the transfer has been 'pending' for 5 days. Money already left my PNC account so now I'm out $450 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-01",
+    "text": "Linking my US Bank debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-02",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-02",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-03",
+    "text": "Been using this for two years to split car payment with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-03",
+    "text": "Tried to send $600 to my sister and the transfer has been 'pending' for 19 days. Money already left my Wells Fargo account so now I'm out $600 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-04",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $200 is gone."
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-05",
+    "text": "Please add biometric login, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-08",
+    "text": "My account has been frozen for 14 days and nobody can tell me why. I have rent money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-09",
+    "text": "App crashes every time I try to open my transaction history on my iPhone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 3,
+    "date": "2026-03-09",
+    "text": "Would love recurring payments. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-10",
+    "text": "Someone got into my account and sent themselves $200 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-11",
+    "text": "My account has been frozen for 21 days and nobody can tell me why. I have tuition money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-11",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 14 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-12",
+    "text": "Linking my my credit union debit card fails every single time with error code 5590. Works fine in every other app I use."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-12",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-12",
+    "text": "Tried to send $1500 to my sister and the transfer has been 'pending' for 19 days. Money already left my my credit union account so now I'm out $1500 with nothing to show for it."
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-13",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-13",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-14",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-14",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-14",
+    "text": "Instant transfer fee jumped from 1.75% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-14",
+    "text": "Waited on hold for 36 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-14",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $600 is gone."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-18",
+    "text": "Locked out of my account with no warning after a routine transfer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-18",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-18",
+    "text": "Sent money to my roommate for utility bill and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-19",
+    "text": "Please add export to CSV, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-19",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $250. Way too much friction."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-20",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 6 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-21",
+    "text": "Locked out of my account with no warning after changing my mailing address. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-21",
+    "text": "Waited on hold for 51 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-21",
+    "text": "Waited on hold for 45 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-21",
+    "text": "Someone got into my account and sent themselves $300 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-21",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $600. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-22",
+    "text": "My account has been frozen for 8 days and nobody can tell me why. I have car payment money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-22",
+    "text": "Uploaded my ID 13 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-22",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-22",
+    "text": "Sent money to my roommate for tuition and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 5,
+    "date": "2026-03-25",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-25",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 4,
+    "date": "2026-03-26",
+    "text": "Please add spending insights, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 2,
+    "date": "2026-03-27",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $375. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-28",
+    "text": "App crashes every time I try to open my transaction history on my iPad. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-28",
+    "text": "Uploaded my ID 13 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-29",
+    "text": "Tried to send $650 to my sister and the transfer has been 'pending' for 16 days. Money already left my PNC account so now I'm out $650 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-29",
+    "text": "Waited on hold for 39 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-30",
+    "text": "Locked out of my account with no warning after a routine transfer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-03-31",
+    "text": "Linking my PNC debit card fails every single time with error code 2214. Works fine in every other app I use."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-01",
+    "text": "Tried to send $300 to my sister and the transfer has been 'pending' for 11 days. Money already left my Bank of America account so now I'm out $300 with nothing to show for it."
+  },
+  {
+    "rating": 4,
+    "date": "2026-04-03",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-03",
+    "text": "Tried to send $400 to my sister and the transfer has been 'pending' for 6 days. Money already left my Wells Fargo account so now I'm out $400 with nothing to show for it."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-04",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 4,
+    "date": "2026-04-04",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-05",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-05",
+    "text": "Waited on hold for 45 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-06",
+    "text": "Locked out of my account with no warning after changing my mailing address. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-10",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 11 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-10",
+    "text": "Waited on hold for 48 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-11",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $750 is gone."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-12",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 18 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 3,
+    "date": "2026-04-13",
+    "text": "Would love export to CSV. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-13",
+    "text": "Tried to send $300 to my sister and the transfer has been 'pending' for 14 days. Money already left my Wells Fargo account so now I'm out $300 with nothing to show for it."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-13",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 11 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-13",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $800 is gone."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-13",
+    "text": "Locked out of my account with no warning after logging in from a new device. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-14",
+    "text": "Linking my Citi debit card fails every single time with error code 5590. Works fine in every other app I use."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-15",
+    "text": "App crashes every time I try to open my transaction history on my iPad. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 4,
+    "date": "2026-04-15",
+    "text": "Please add recurring payments, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-15",
+    "text": "My account has been frozen for 16 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-16",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $2200 is gone."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-17",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 6 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 5,
+    "date": "2026-04-19",
+    "text": "Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-20",
+    "text": "Linking my Chase debit card fails every single time with error code 3088. Works fine in every other app I use."
+  },
+  {
+    "rating": 4,
+    "date": "2026-04-21",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-21",
+    "text": "Someone got into my account and sent themselves $1000 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-21",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-21",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-22",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $500. Way too much friction."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-23",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 6 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-23",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-23",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $375. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-24",
+    "text": "App crashes every time I try to open my transaction history on my the web app. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 3,
+    "date": "2026-04-24",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-24",
+    "text": "Instant transfer fee jumped from 1.5% to 2.5% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 5,
+    "date": "2026-04-25",
+    "text": "Sent money to my roommate for car payment and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 3,
+    "date": "2026-04-25",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-25",
+    "text": "My account has been frozen for 11 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-25",
+    "text": "Linking my my credit union debit card fails every single time with error code 1187. Works fine in every other app I use."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-26",
+    "text": "Locked out of my account with no warning after updating my phone number. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-27",
+    "text": "Refund for a canceled order never came through even though a subscription service confirmed it on their end. Support said to 'wait 5-7 business days' 5 days ago."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-27",
+    "text": "Tried to send $2200 to my sister and the transfer has been 'pending' for 5 days. Money already left my PNC account so now I'm out $2200 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-27",
+    "text": "Tried to send $1500 to my sister and the transfer has been 'pending' for 8 days. Money already left my Wells Fargo account so now I'm out $1500 with nothing to show for it."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-28",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $1200. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-28",
+    "text": "Instant transfer fee jumped from 1.5% to 2.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-28",
+    "text": "Tried to send $375 to my sister and the transfer has been 'pending' for 10 days. Money already left my my credit union account so now I'm out $375 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-04-29",
+    "text": "Linking my Bank of America debit card fails every single time with error code 1187. Works fine in every other app I use."
+  },
+  {
+    "rating": 2,
+    "date": "2026-04-30",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $450. Way too much friction."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-01",
+    "text": "Refund for a canceled order never came through even though a subscription service confirmed it on their end. Support said to 'wait 5-7 business days' 5 days ago."
+  },
+  {
+    "rating": 4,
+    "date": "2026-05-01",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-01",
+    "text": "Linking my Bank of America debit card fails every single time with error code 3088. Works fine in every other app I use."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-02",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 8 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-03",
+    "text": "Sent money to my roommate for grocery and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-03",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 4,
+    "date": "2026-05-04",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-05",
+    "text": "Refund for a canceled order never came through even though an online retailer confirmed it on their end. Support said to 'wait 5-7 business days' 10 days ago."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-05",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 7 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-06",
+    "text": "Sent money to my roommate for medical bill and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-06",
+    "text": "Instant transfer fee jumped from 1.75% to 2% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-07",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-07",
+    "text": "Sent money to my roommate for grocery and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-07",
+    "text": "Someone got into my account and sent themselves $300 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-08",
+    "text": "Been using this for two years to split tuition with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-10",
+    "text": "My account has been frozen for 15 days and nobody can tell me why. I have grocery money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-10",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-11",
+    "text": "Someone got into my account and sent themselves $600 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-11",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 5 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 4,
+    "date": "2026-05-13",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-13",
+    "text": "Waited on hold for 33 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-14",
+    "text": "App crashes every time I try to open my transaction history on my iPad. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-14",
+    "text": "Linking my Bank of America debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-14",
+    "text": "Locked out of my account with no warning after a wire transfer from my employer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-15",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $900 is gone."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-15",
+    "text": "Uploaded my ID 7 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-16",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $600. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-17",
+    "text": "Instant transfer fee jumped from 2% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-17",
+    "text": "Locked out of my account with no warning after updating my phone number. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-17",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-21",
+    "text": "Linking my Capital One debit card fails every single time with error code 7745. Works fine in every other app I use."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-22",
+    "text": "Uploaded my ID 21 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-23",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $2200 is gone."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-24",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $650. Way too much friction."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-24",
+    "text": "Sent money to my roommate for medical bill and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 2,
+    "date": "2026-05-24",
+    "text": "Refund for a canceled order never came through even though a ticketing site confirmed it on their end. Support said to 'wait 5-7 business days' 21 days ago."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-25",
+    "text": "Instant transfer fee jumped from 2.25% to 2% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-26",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $600 is gone."
+  },
+  {
+    "rating": 4,
+    "date": "2026-05-28",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 5,
+    "date": "2026-05-30",
+    "text": "Sent money to my roommate for utility bill and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-05-30",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $1200 is gone."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-01",
+    "text": "Tried to send $2200 to my sister and the transfer has been 'pending' for 16 days. Money already left my PNC account so now I'm out $2200 with nothing to show for it."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-01",
+    "text": "Sent money to my roommate for grocery and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 4,
+    "date": "2026-06-01",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-02",
+    "text": "Sent money to my roommate for grocery and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-02",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-04",
+    "text": "Sent money to my roommate for tuition and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-04",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 3,
+    "date": "2026-06-04",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 3,
+    "date": "2026-06-05",
+    "text": "Would love export to CSV. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-05",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $1500. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-05",
+    "text": "Tried to send $250 to my sister and the transfer has been 'pending' for 5 days. Money already left my Citi account so now I'm out $250 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-06",
+    "text": "My account has been frozen for 20 days and nobody can tell me why. I have car payment money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-07",
+    "text": "Linking my PNC debit card fails every single time with error code 7745. Works fine in every other app I use."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-08",
+    "text": "Tried to send $2200 to my sister and the transfer has been 'pending' for 6 days. Money already left my PNC account so now I'm out $2200 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-08",
+    "text": "My account has been frozen for 20 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-09",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-09",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-10",
+    "text": "Uploaded my ID 19 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-10",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $200. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-10",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $600 is gone."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-10",
+    "text": "My account has been frozen for 4 days and nobody can tell me why. I have car payment money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 3,
+    "date": "2026-06-11",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-11",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been 2 days and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-11",
+    "text": "Linking my Bank of America debit card fails every single time with error code 1187. Works fine in every other app I use."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-12",
+    "text": "Refund for a canceled order never came through even though a local store confirmed it on their end. Support said to 'wait 5-7 business days' 18 days ago."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-12",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $500. Way too much friction."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-12",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 4,
+    "date": "2026-06-12",
+    "text": "Please add multi-currency support, my eyes would thank you. Otherwise no complaints."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-14",
+    "text": "Waited on hold for 12 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-17",
+    "text": "Been using this for two years to split paycheck with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-17",
+    "text": "Uploaded my ID 2 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 3,
+    "date": "2026-06-18",
+    "text": "Would love multi-currency support. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 2,
+    "date": "2026-06-19",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 2 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-19",
+    "text": "Tried to send $1500 to my sister and the transfer has been 'pending' for 5 days. Money already left my Citi account so now I'm out $1500 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-20",
+    "text": "Someone got into my account and sent themselves $750 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 4,
+    "date": "2026-06-21",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-22",
+    "text": "Waited on hold for 12 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 3,
+    "date": "2026-06-22",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-23",
+    "text": "Someone got into my account and sent themselves $400 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-23",
+    "text": "Locked out of my account with no warning after updating my phone number. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-23",
+    "text": "Uploaded my ID 16 times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-23",
+    "text": "Locked out of my account with no warning after updating my phone number. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-23",
+    "text": "App crashes every time I try to open my transaction history on my iPhone. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-25",
+    "text": "Linking my Wells Fargo debit card fails every single time with error code 4021. Works fine in every other app I use."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-26",
+    "text": "Sent money to my roommate for paycheck and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-27",
+    "text": "Locked out of my account with no warning after a wire transfer from my employer. Passed every verification step and it's still 'under review.'"
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-28",
+    "text": "My account has been frozen for 10 days and nobody can tell me why. I have utility bill money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 5,
+    "date": "2026-06-28",
+    "text": "Sent money to my roommate for paycheck and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-28",
+    "text": "Instant transfer fee jumped from 1.5% to 2.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-28",
+    "text": "My account has been frozen for 3 days and nobody can tell me why. I have rent money stuck in there and support keeps sending the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-29",
+    "text": "Tried to send $650 to my sister and the transfer has been 'pending' for 4 days. Money already left my PNC account so now I'm out $650 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-06-30",
+    "text": "Waited on hold for 18 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-01",
+    "text": "Instant transfer fee jumped from 1.75% to 2% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 5,
+    "date": "2026-07-01",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-02",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $500 is gone."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-02",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $750. Way too much friction."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-03",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent 9 days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-05",
+    "text": "My account has been frozen for 9 days and nobody can tell me why. I have rent money stuck in there and support keeps sending me the same copy-paste email."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-06",
+    "text": "Locked out of my account with no warning. Passed every verification step and it's still 'under review.' This is my only access to my paycheck."
+  },
+  {
+    "rating": 5,
+    "date": "2026-07-08",
+    "text": "Sent money to my roommate for rent and it landed in her account in under a minute. So much easier than writing a check."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-09",
+    "text": "Tried to send $400 to my sister and the transfer has been 'pending' for 3 days. Money left my bank account already so now I'm out $400 with nothing to show for it."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-10",
+    "text": "Someone got into my account and sent themselves $850 from my linked card. I never approved that transaction and now I'm fighting to get it reversed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-11",
+    "text": "Got a text that looked exactly like it came from the app asking me to confirm my login. Clicked it and now $200 is gone. Wish the app warned people about these scams more clearly."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-11",
+    "text": "I disputed a payment to a seller who never shipped my item. It's been three weeks and the dispute status still just says 'in progress' with zero updates."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-12",
+    "text": "Refund for a canceled order never came through even though the merchant confirmed it on their end. Support said to 'wait 5-7 business days' two weeks ago."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-12",
+    "text": "Uploaded my ID three times for verification and it keeps getting rejected with no explanation of what's wrong with the photo."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-13",
+    "text": "The identity verification process wanted a selfie, a government ID, AND a proof of address just to raise my sending limit by $200. Way too much friction."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-13",
+    "text": "Linking my Chase debit card fails every single time with a generic error code. Works fine in every other app I use."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-14",
+    "text": "Direct deposit didn't show up on payday even though my employer confirmed it was sent two days early like usual. Had to scramble to cover bills."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-14",
+    "text": "Instant transfer fee jumped from 1.5% to 1.75% with zero notice. Sneaky way to raise fees on people who need their money fast."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-15",
+    "text": "Didn't realize there was a fee for adding money with a credit card until after I'd already done it. Should be way more visible before you confirm."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-15",
+    "text": "Waited on hold for 40 minutes only to get disconnected. Called back and had to explain the entire situation from scratch again."
+  },
+  {
+    "rating": 5,
+    "date": "2026-07-16",
+    "text": "Chatted with support about a duplicate charge and they resolved it in under 10 minutes with no hoops to jump through. Genuinely impressed."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-16",
+    "text": "There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-17",
+    "text": "App crashes every time I try to open my transaction history. Been happening since the last update, completely unusable now."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-17",
+    "text": "Constant lag when loading my balance. Sometimes shows the wrong number for a few seconds before it corrects itself, which is terrifying when you're checking if a payment went through."
+  },
+  {
+    "rating": 4,
+    "date": "2026-07-18",
+    "text": "The redesign is clean and I can actually find my transaction history now without digging through five menus. Nice work."
+  },
+  {
+    "rating": 2,
+    "date": "2026-07-18",
+    "text": "The navigation is so confusing. I still can't figure out where to find my routing and account number without searching online."
+  },
+  {
+    "rating": 3,
+    "date": "2026-07-19",
+    "text": "Would love a way to schedule recurring payments to the same person every month instead of manually sending it each time."
+  },
+  {
+    "rating": 4,
+    "date": "2026-07-19",
+    "text": "Please add a dark mode, my eyes would thank you. Otherwise the app does what I need it to do."
+  },
+  {
+    "rating": 5,
+    "date": "2026-07-20",
+    "text": "Been using this for two years to split rent with roommates and it has never once given me trouble. Does exactly what it says on the tin."
+  },
+  {
+    "rating": 3,
+    "date": "2026-07-20",
+    "text": "It's fine I guess. Nothing special but nothing broken either. Does what a payments app needs to do."
+  },
+  {
+    "rating": 1,
+    "date": "2026-07-21",
+    "text": "Considering switching to a competitor after this account freeze nonsense. Two weeks with my money locked up is unacceptable for a company this size."
+  }
 ]

@@ -1,4 +1,164 @@
 ticket_id,created_at,subject,message
+T-0001,2026-01-05T18:13:00,Debit card won't link,Every time I try to add my US Bank debit card I get error code 2214. I've tried three different cards and none work.
+T-0002,2026-01-07T20:06:00,Dispute never resolved after 4 days,I opened a dispute for an item that never arrived from a ticketing site and it's been open for 4 days with no update. Can someone actually look at this?
+T-0003,2026-01-12T18:39:00,Feature request: transaction categorization,"Could you add transaction categorization? I've been wanting this for a while, it would save me a lot of time managing my paycheck payments."
+T-0004,2026-01-13T20:54:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0005,2026-01-14T09:26:00,Account under review with no timeline,"I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 7 days."
+T-0006,2026-01-14T14:05:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0007,2026-01-18T13:32:00,Debit card won't link,Every time I try to add my Capital One debit card I get error code 2214. I've tried three different cards and none work.
+T-0008,2026-01-20T16:40:00,Account under review with no timeline,"I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 3 days."
+T-0009,2026-01-21T18:49:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my Android phone. Happens on both wifi and cellular.
+T-0010,2026-01-22T08:38:00,Surprise fee on instant transfer,I was charged 1.75% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0011,2026-01-22T12:15:00,Surprise fee on instant transfer,I was charged 1.75% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0012,2026-01-22T19:17:00,Account frozen with no explanation,My account was frozen after a wire transfer from my employer and I've had no response from the verification team in 17 days. I need access to pay my rent.
+T-0013,2026-01-24T20:20:00,Direct deposit missing,My direct deposit didn't show up on payday even though my employer confirmed it was sent 7 days early like usual. Had to scramble to cover my grocery.
+T-0014,2026-01-25T15:28:00,Still waiting on hold,I've been on hold for over 39 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?
+T-0015,2026-01-25T20:11:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my rent issue faster than I expected, appreciate it."
+T-0016,2026-01-28T13:06:00,Surprise fee on instant transfer,I was charged 2.5% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0017,2026-01-28T13:06:00,ID verification keeps failing,I've submitted my driver's license photo 12 times now and it keeps getting rejected with no reason given. How do I fix this?
+T-0018,2026-01-28T13:24:00,Transfer never arrived,"Sent $600 to my sister 13 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0019,2026-01-29T10:56:00,Account under review with no timeline,"I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 12 days."
+T-0020,2026-01-31T18:54:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $650 increase."
+T-0021,2026-02-03T12:27:00,Surprise fee on instant transfer,I was charged 2.5% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0022,2026-02-03T14:07:00,Transfer never arrived,"Sent $1500 to my sister 16 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0023,2026-02-07T19:34:00,Unauthorized $200 transaction,There is a transaction I did not make for $200 sent to an account I don't recognize. I want this investigated and reversed immediately.
+T-0024,2026-02-09T15:31:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my iPad. Happens on both wifi and cellular.
+T-0025,2026-02-09T18:21:00,Still waiting on hold,I've been on hold for over 27 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?
+T-0026,2026-02-12T07:28:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $250 increase."
+T-0027,2026-02-14T19:44:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0028,2026-02-16T14:18:00,Dispute never resolved after 13 days,I opened a dispute for an item that never arrived from a ticketing site and it's been open for 13 days with no update. Can someone actually look at this?
+T-0029,2026-02-16T17:39:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $1200 increase."
+T-0030,2026-02-17T09:17:00,Account frozen with no explanation,My account was frozen after logging in from a new device and I've had no response from the verification team in 13 days. I need access to pay my grocery.
+T-0031,2026-02-20T16:27:00,Account frozen with no explanation,My account was frozen after a routine transfer and I've had no response from the verification team in 15 days. I need access to pay my utility bill.
+T-0032,2026-02-20T20:09:00,Unauthorized $2200 transaction,There is a transaction I did not make for $2200 sent to an account I don't recognize. I want this investigated and reversed immediately.
+T-0033,2026-02-25T08:08:00,Still waiting on hold,I've been on hold for over 30 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?
+T-0034,2026-02-25T16:34:00,Debit card won't link,Every time I try to add my PNC debit card I get error code 6603. I've tried three different cards and none work.
+T-0035,2026-02-26T11:35:00,Refund not received,an online retailer confirmed my refund of $900 was issued 5 days ago but I still don't see it in my balance or transaction history.
+T-0036,2026-02-27T17:15:00,ID verification keeps failing,I've submitted my driver's license photo 5 times now and it keeps getting rejected with no reason given. How do I fix this?
+T-0037,2026-02-27T18:21:00,Transfer never arrived,"Sent $1800 to my sister 21 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0038,2026-02-28T16:56:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my iPad. Happens on both wifi and cellular.
+T-0039,2026-03-03T19:12:00,Balance shows wrong amount briefly,When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my Android phone. Kind of alarming.
+T-0040,2026-03-03T20:43:00,Feature request: dark mode,"Could you add dark mode? I've been wanting this for a while, it would save me a lot of time managing my car payment payments."
+T-0041,2026-03-07T11:25:00,Account frozen with no explanation,My account was frozen after logging in from a new device and I've had no response from the verification team in 9 days. I need access to pay my rent.
+T-0042,2026-03-07T18:26:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0043,2026-03-08T12:18:00,Transfer never arrived,"Sent $750 to my sister 16 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0044,2026-03-08T13:37:00,Surprise fee on instant transfer,I was charged 2.75% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0045,2026-03-08T14:35:00,Dispute never resolved after 20 days,I opened a dispute for an item that never arrived from a ticketing site and it's been open for 20 days with no update. Can someone actually look at this?
+T-0046,2026-03-09T10:04:00,Transfer never arrived,"Sent $400 to my sister 19 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0047,2026-03-12T13:20:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $1200 increase."
+T-0048,2026-03-14T14:15:00,Dispute never resolved after 12 days,I opened a dispute for an item that never arrived from an online retailer and it's been open for 12 days with no update. Can someone actually look at this?
+T-0049,2026-03-14T19:05:00,Balance shows wrong amount briefly,When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my iPad. Kind of alarming.
+T-0050,2026-03-14T19:41:00,Account frozen with no explanation,My account was frozen after logging in from a new device and I've had no response from the verification team in 5 days. I need access to pay my utility bill.
+T-0051,2026-03-16T09:40:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 27 minutes to find.
+T-0052,2026-03-16T18:37:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my tuition issue faster than I expected, appreciate it."
+T-0053,2026-03-17T20:39:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $900 increase."
+T-0054,2026-03-19T10:27:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $2200 increase."
+T-0055,2026-03-19T12:55:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my grocery issue faster than I expected, appreciate it."
+T-0056,2026-03-19T13:44:00,Account frozen with no explanation,My account was frozen after logging in from a new device and I've had no response from the verification team in 9 days. I need access to pay my paycheck.
+T-0057,2026-03-21T16:43:00,Debit card won't link,Every time I try to add my Citi debit card I get error code 7745. I've tried three different cards and none work.
+T-0058,2026-03-22T14:52:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 27 minutes to find.
+T-0059,2026-03-22T20:37:00,Still waiting on hold,I've been on hold for over 15 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?
+T-0060,2026-03-26T08:15:00,Transfer never arrived,"Sent $750 to my sister 18 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0061,2026-03-27T10:23:00,Unauthorized $750 transaction,There is a transaction I did not make for $750 sent to an account I don't recognize. I want this investigated and reversed immediately.
+T-0062,2026-03-27T15:05:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 21 minutes to find.
+T-0063,2026-03-29T08:00:00,Transfer never arrived,"Sent $650 to my sister 18 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0064,2026-03-29T10:29:00,Feature request: dark mode,"Could you add dark mode? I've been wanting this for a while, it would save me a lot of time managing my medical bill payments."
+T-0065,2026-03-29T19:36:00,Surprise fee on instant transfer,I was charged 2.5% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0066,2026-03-30T13:48:00,Feature request: transaction categorization,"Could you add transaction categorization? I've been wanting this for a while, it would save me a lot of time managing my rent payments."
+T-0067,2026-03-31T10:08:00,Debit card won't link,Every time I try to add my my credit union debit card I get error code 4021. I've tried three different cards and none work.
+T-0068,2026-04-01T16:44:00,Direct deposit missing,My direct deposit didn't show up on payday even though my employer confirmed it was sent 5 days early like usual. Had to scramble to cover my medical bill.
+T-0069,2026-04-03T17:42:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 24 minutes to find.
+T-0070,2026-04-05T20:42:00,Unauthorized $250 transaction,There is a transaction I did not make for $250 sent to an account I don't recognize. I want this investigated and reversed immediately.
+T-0071,2026-04-07T11:11:00,Refund not received,an online retailer confirmed my refund of $250 was issued 6 days ago but I still don't see it in my balance or transaction history.
+T-0072,2026-04-08T13:20:00,Account frozen with no explanation,My account was frozen after updating my phone number and I've had no response from the verification team in 9 days. I need access to pay my tuition.
+T-0073,2026-04-09T08:48:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my car payment issue faster than I expected, appreciate it."
+T-0074,2026-04-10T19:10:00,Refund not received,a subscription service confirmed my refund of $400 was issued 15 days ago but I still don't see it in my balance or transaction history.
+T-0075,2026-04-11T09:10:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my utility bill issue faster than I expected, appreciate it."
+T-0076,2026-04-11T17:38:00,Surprise fee on instant transfer,I was charged 2.5% instead of the usual 1.5% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0077,2026-04-13T10:28:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my iPhone. Happens on both wifi and cellular.
+T-0078,2026-04-14T13:49:00,Locked out after password reset,I reset my password like the email said but now I get 'account locked' every time I try to log in. It's been 4 days.
+T-0079,2026-04-16T18:46:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my medical bill issue faster than I expected, appreciate it."
+T-0080,2026-04-18T18:21:00,Surprise fee on instant transfer,I was charged 2.25% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0081,2026-04-19T14:44:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my paycheck issue faster than I expected, appreciate it."
+T-0082,2026-04-20T16:43:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my Android phone. Happens on both wifi and cellular.
+T-0083,2026-04-23T10:11:00,Transfer stuck in pending for days,I sent a payment of $1500 to a friend 9 days ago and it's still showing pending even though the money already left my PNC account.
+T-0084,2026-04-24T12:42:00,Account under review with no timeline,"I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 5 days."
+T-0085,2026-04-25T15:58:00,Direct deposit missing,My direct deposit didn't show up on payday even though my employer confirmed it was sent 15 days early like usual. Had to scramble to cover my car payment.
+T-0086,2026-04-26T14:01:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 30 minutes to find.
+T-0087,2026-04-28T14:10:00,Transfer never arrived,"Sent $200 to my sister 16 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0088,2026-04-28T15:45:00,Phishing text pretending to be support,I got a text pretending to be your fraud team asking me to verify my card number. Wanted to flag this in case others are getting the same scam.
+T-0089,2026-04-29T09:47:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 18 minutes to find.
+T-0090,2026-04-29T16:00:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $800 increase."
+T-0091,2026-04-29T20:58:00,Surprise fee on instant transfer,I was charged 2.25% instead of the usual 1.5% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0092,2026-04-30T07:03:00,Refund not received,a local store confirmed my refund of $1200 was issued 6 days ago but I still don't see it in my balance or transaction history.
+T-0093,2026-04-30T14:14:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my iPhone. Happens on both wifi and cellular.
+T-0094,2026-05-01T19:13:00,Surprise fee on instant transfer,I was charged 1.75% instead of the usual 1.5% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0095,2026-05-02T08:07:00,Feature request: recurring payments,"Could you add recurring payments? I've been wanting this for a while, it would save me a lot of time managing my tuition payments."
+T-0096,2026-05-03T16:39:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0097,2026-05-03T17:46:00,Feature request: spending insights,"Could you add spending insights? I've been wanting this for a while, it would save me a lot of time managing my paycheck payments."
+T-0098,2026-05-03T19:43:00,Account under review with no timeline,"I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 14 days."
+T-0099,2026-05-04T11:43:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my iPad. Happens on both wifi and cellular.
+T-0100,2026-05-04T14:56:00,Transfer stuck in pending for days,I sent a payment of $900 to a friend 11 days ago and it's still showing pending even though the money already left my Citi account.
+T-0101,2026-05-05T20:12:00,Transfer stuck in pending for days,I sent a payment of $200 to a friend 16 days ago and it's still showing pending even though the money already left my my credit union account.
+T-0102,2026-05-06T11:02:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $150 increase."
+T-0103,2026-05-06T14:49:00,Transfer stuck in pending for days,I sent a payment of $150 to a friend 6 days ago and it's still showing pending even though the money already left my Citi account.
+T-0104,2026-05-08T10:15:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 33 minutes to find.
+T-0105,2026-05-08T12:21:00,Transfer stuck in pending for days,I sent a payment of $1000 to a friend 10 days ago and it's still showing pending even though the money already left my Capital One account.
+T-0106,2026-05-08T14:13:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0107,2026-05-10T08:36:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my rent issue faster than I expected, appreciate it."
+T-0108,2026-05-10T08:57:00,Surprise fee on instant transfer,I was charged 2% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0109,2026-05-11T07:08:00,Surprise fee on instant transfer,I was charged 2.5% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0110,2026-05-14T11:42:00,ID verification keeps failing,I've submitted my driver's license photo 10 times now and it keeps getting rejected with no reason given. How do I fix this?
+T-0111,2026-05-14T16:01:00,Still waiting on hold,I've been on hold for over 15 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?
+T-0112,2026-05-14T16:27:00,Balance shows wrong amount briefly,When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my iPad. Kind of alarming.
+T-0113,2026-05-15T10:07:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 27 minutes to find.
+T-0114,2026-05-15T18:56:00,Still waiting on hold,I've been on hold for over 51 minutes trying to talk to a person about a billing issue. Is there a faster way to reach a human?
+T-0115,2026-05-19T09:15:00,No way to reach a human,There is no phone number anywhere in the app. The only option is a chatbot that just loops the same three unhelpful answers.
+T-0116,2026-05-20T12:27:00,Debit card won't link,Every time I try to add my Chase debit card I get error code 4021. I've tried three different cards and none work.
+T-0117,2026-05-21T19:08:00,Surprise fee on instant transfer,I was charged 2% instead of the usual 2% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0118,2026-05-22T11:59:00,Feature request: multi-currency support,"Could you add multi-currency support? I've been wanting this for a while, it would save me a lot of time managing my grocery payments."
+T-0119,2026-05-23T11:51:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my Android phone. Happens on both wifi and cellular.
+T-0120,2026-05-23T14:28:00,Transfer never arrived,"Sent $250 to my sister 6 days ago, she still hasn't received it and the app just says 'processing.'"
+T-0121,2026-05-24T10:41:00,Surprise fee on instant transfer,I was charged 1.75% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0122,2026-05-24T20:23:00,Account frozen with no explanation,My account was frozen after logging in from a new device and I've had no response from the verification team in 9 days. I need access to pay my medical bill.
+T-0123,2026-05-26T11:44:00,Quick thanks for resolving my case,"Just wanted to say the support team resolved my car payment issue faster than I expected, appreciate it."
+T-0124,2026-05-27T15:26:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $250 increase."
+T-0125,2026-05-28T13:26:00,Why do I need this much documentation,"Just to increase my weekly send limit I was asked for a selfie, ID, and a utility bill. Seems excessive for a $1000 increase."
+T-0126,2026-05-31T12:36:00,Surprise fee on instant transfer,I was charged 2.25% instead of the usual 2.25% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0127,2026-05-31T13:39:00,Dispute never resolved after 18 days,I opened a dispute for an item that never arrived from a subscription service and it's been open for 18 days with no update. Can someone actually look at this?
+T-0128,2026-06-03T18:01:00,Transfer stuck in pending for days,I sent a payment of $375 to a friend 14 days ago and it's still showing pending even though the money already left my Wells Fargo account.
+T-0129,2026-06-06T16:12:00,Refund not received,a local store confirmed my refund of $250 was issued 6 days ago but I still don't see it in my balance or transaction history.
+T-0130,2026-06-07T19:43:00,Account under review with no timeline,"I logged in from a new device and now my account shows 'under review.' Nobody will give me an actual timeline, it's been 3 days."
+T-0131,2026-06-08T18:12:00,Debit card won't link,Every time I try to add my my credit union debit card I get error code 7745. I've tried three different cards and none work.
+T-0132,2026-06-09T15:07:00,Refund not received,a local store confirmed my refund of $750 was issued 19 days ago but I still don't see it in my balance or transaction history.
+T-0133,2026-06-09T18:45:00,Account frozen with no explanation,My account was frozen after logging in from a new device and I've had no response from the verification team in 8 days. I need access to pay my paycheck.
+T-0134,2026-06-10T14:55:00,Balance shows wrong amount briefly,When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my the web app. Kind of alarming.
+T-0135,2026-06-15T18:39:00,Locked out after password reset,I reset my password like the email said but now I get 'account locked' every time I try to log in. It's been 5 days.
+T-0136,2026-06-16T09:34:00,Dispute never resolved after 9 days,I opened a dispute for an item that never arrived from a ticketing site and it's been open for 9 days with no update. Can someone actually look at this?
+T-0137,2026-06-16T09:47:00,Refund not received,a local store confirmed my refund of $400 was issued 15 days ago but I still don't see it in my balance or transaction history.
+T-0138,2026-06-16T10:39:00,Refund not received,a subscription service confirmed my refund of $900 was issued 2 days ago but I still don't see it in my balance or transaction history.
+T-0139,2026-06-16T20:29:00,Transfer stuck in pending for days,I sent a payment of $2200 to a friend 13 days ago and it's still showing pending even though the money already left my my credit union account.
+T-0140,2026-06-17T11:23:00,Balance shows wrong amount briefly,When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my iPad. Kind of alarming.
+T-0141,2026-06-18T15:33:00,Feature request: dark mode,"Could you add dark mode? I've been wanting this for a while, it would save me a lot of time managing my rent payments."
+T-0142,2026-06-18T17:39:00,Unauthorized $450 transaction,There is a transaction I did not make for $450 sent to an account I don't recognize. I want this investigated and reversed immediately.
+T-0143,2026-06-19T20:09:00,ID verification keeps failing,I've submitted my driver's license photo 14 times now and it keeps getting rejected with no reason given. How do I fix this?
+T-0144,2026-06-20T07:48:00,Phishing text pretending to be support,I got a text pretending to be your fraud team asking me to verify my card number. Wanted to flag this in case others are getting the same scam.
+T-0145,2026-06-20T15:53:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 30 minutes to find.
+T-0146,2026-06-22T09:45:00,Transfer stuck in pending for days,I sent a payment of $450 to a friend 16 days ago and it's still showing pending even though the money already left my Capital One account.
+T-0147,2026-06-23T09:58:00,Dispute never resolved after 12 days,I opened a dispute for an item that never arrived from a ticketing site and it's been open for 12 days with no update. Can someone actually look at this?
+T-0148,2026-06-23T10:49:00,Refund not received,an online retailer confirmed my refund of $600 was issued 21 days ago but I still don't see it in my balance or transaction history.
+T-0149,2026-06-24T17:05:00,Can't find routing number in the app,I still can't figure out where to find my routing and account number without searching online. It shouldn't take 18 minutes to find.
+T-0150,2026-06-25T14:13:00,Dispute never resolved after 20 days,I opened a dispute for an item that never arrived from a marketplace seller and it's been open for 20 days with no update. Can someone actually look at this?
+T-0151,2026-06-26T10:30:00,Balance shows wrong amount briefly,When I open the app my balance flashes an incorrect number for a couple seconds before updating to the right one on my iPad. Kind of alarming.
+T-0152,2026-06-27T15:24:00,Phishing text pretending to be support,I got a text pretending to be your fraud team asking me to verify my card number. Wanted to flag this in case others are getting the same scam.
+T-0153,2026-06-27T19:10:00,Surprise fee on instant transfer,I was charged 1.75% instead of the usual 2% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0154,2026-06-27T19:28:00,Direct deposit missing,My direct deposit didn't show up on payday even though my employer confirmed it was sent 21 days early like usual. Had to scramble to cover my utility bill.
+T-0155,2026-06-28T19:08:00,Surprise fee on instant transfer,I was charged 2% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0156,2026-06-29T08:31:00,ID verification keeps failing,I've submitted my driver's license photo 16 times now and it keeps getting rejected with no reason given. How do I fix this?
+T-0157,2026-06-29T16:51:00,Transfer stuck in pending for days,I sent a payment of $300 to a friend 11 days ago and it's still showing pending even though the money already left my Capital One account.
+T-0158,2026-06-30T12:13:00,Surprise fee on instant transfer,I was charged 2.5% instead of the usual 1.75% for an instant transfer and there was no warning it had changed before I confirmed.
+T-0159,2026-06-30T14:22:00,App keeps crashing on transaction history,Since the latest update the app crashes every single time I open my transaction history tab on my the web app. Happens on both wifi and cellular.
+T-0160,2026-07-02T16:45:00,Surprise fee on instant transfer,I was charged 2.25% instead of the usual 2% for an instant transfer and there was no warning it had changed before I confirmed.
 T-1001,2026-07-05T09:14:00,Account frozen with no explanation,"My account was frozen after a routine transfer and I've had no response from the verification team in over a week. I need access to pay my bills."
 T-1002,2026-07-06T14:02:00,Can't log in after password reset,"I reset my password like the email said but now I get 'account locked' every time I try to log in. Please help urgently."
 T-1003,2026-07-07T11:45:00,Transfer stuck in pending for days,"I sent a payment to a friend on Tuesday and it's still showing pending on my end even though the money already left my bank."
