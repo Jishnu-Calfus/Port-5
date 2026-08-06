@@ -7,7 +7,7 @@ import SentimentDivergingBar from "./components/SentimentDivergingBar";
 import SourceDonut from "./components/SourceDonut";
 import TrendLine from "./components/TrendLine";
 import AskFeedback from "./components/AskFeedback";
-import WeeklySummary from "./components/WeeklySummary";
+import OverviewSummary from "./components/OverviewSummary";
 
 function App() {
   const [data, setData] = useState(null);
@@ -82,6 +82,7 @@ function App() {
             <SourceDonut data={data.sources} />
             <TrendLine data={data.trend} />
           </div>
+          <OverviewSummary summary={data.summary.summary} />
         </>
       ) : (
         <>
@@ -103,8 +104,6 @@ function App() {
       <PriorityPanel data={data.priority} />
 
       <AskFeedback />
-
-      <WeeklySummary summary={data.summary.summary} />
     </div>
   );
 }
