@@ -3,7 +3,7 @@ import { Bar, BarChart, CartesianGrid, ReferenceLine, ResponsiveContainer, Toolt
 // Diverging stacked bar centered on neutral: negative extends left (red pole),
 // positive extends right (blue pole), neutral is split evenly across the
 // zero line so its segment visually sits "at rest" between the two poles.
-export default function SentimentDivergingBar({ data }) {
+export default function SentimentDivergingBar({ data, title = "Sentiment by Category" }) {
   const chartData = data.map((row) => ({
     category: row.category,
     negative: -row.negative,
@@ -14,7 +14,7 @@ export default function SentimentDivergingBar({ data }) {
 
   return (
     <div className="card chart-card">
-      <div className="section-title">Sentiment by Category</div>
+      <div className="section-title">{title}</div>
       <ResponsiveContainer width="100%" height={280}>
         <BarChart data={chartData} layout="vertical" stackOffset="sign" margin={{ left: 100 }}>
           <CartesianGrid stroke="var(--gridline)" horizontal={false} />

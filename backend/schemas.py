@@ -77,3 +77,15 @@ class WeeklyRAGSummary(BaseModel):
     (stats, deltas, quotes) is rendered deterministically in code."""
     headline: str = Field(..., description="One-sentence takeaway for the week, grounded only in the numbers provided")
     narrative: str = Field(..., description="2-3 sentence analysis, grounded only in the numbers provided")
+
+
+class AgentAnswer(BaseModel):
+    """Public response shape for POST /api/agent/ask. sql/chart_type/chart_data
+    are all derived deterministically in backend/agent/agent.py, never trusted
+    as free-form model output -- see AgentFinalOutput in agent.py for the one
+    thing that IS taken directly from the model (the narrative)."""
+    answer: str = Field(..., description="Plain-prose explanation of the result, grounded only in the executed query's rows")
+    sql: str = Field(..., description="The exact SQL that was validated and executed")
+    chart_type: str | None = Field(None, description="One of bar/diverging_bar/donut/line/stat/grouped_bar, or null if there's nothing chartable")
+    chart_data: dict | list | None = Field(None, description="Reshaped to match the chosen chart component's expected props (grouped_bar: a list of {label, data} entries, one bar chart per entry)")
+    row_count: int = Field(..., description="Number of rows the executed query returned")

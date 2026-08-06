@@ -8,10 +8,13 @@ reporting.
 **Phase 1:** raw sources → normalized staging → LLM classification (few-shot,
 temp=0, schema-validated) → enriched data (`feedback_enriched.json`).
 **Phase 2:** that JSON loaded into a proper Postgres star schema for real
-aggregation. **Phase 3 (this state of the repo):** priority scoring, a
-grounded weekly narrative summary, a RAG "ask your feedback" pipeline
-(ChromaDB + Ollama), and a FastAPI layer wrapping all of it. **Phase 4:** a
-React dashboard consuming that API.
+aggregation. **Phase 3:** priority scoring, a grounded weekly narrative
+summary, a RAG "ask your feedback" pipeline (ChromaDB + Ollama), and a
+FastAPI layer wrapping all of it. **Phase 4:** a React dashboard consuming
+that API. **Phase 5 (this state of the repo):** a natural-language data
+agent that drafts and safely runs its own read-only SQL, then picks a chart
+and explains the result — see [`AGENT.md`](AGENT.md) for the full
+architecture and safety model.
 
 ## Project layout
 
@@ -29,11 +32,18 @@ backend/
 ├── analytics/                                 Phase 3: deterministic aggregation (no LLM)
 │   ├── aggregations.py, priority.py, summary.py         all-time dashboard math + narrated weekly summary
 │   └── weekly_aggregations.py                 same math, scoped to the latest week (dashboard's "This week" tab)
-└── rag/                                       RAG "ask your feedback" pipeline
-    ├── vector_store.py                        Chroma collections (embedding function + client)
-    ├── rag_aggregation.py, index_weekly_summaries.py    weekly rollup -> fixed-shape doc -> embed (the RAG knowledge base)
-    ├── rag.py                                 retrieve + synthesize, cited by week
-    └── index_feedback.py                      legacy per-item indexer, unused by the live RAG path (kept for reference)
+├── rag/                                       RAG "ask your feedback" pipeline
+│   ├── vector_store.py                        Chroma collections (embedding function + client)
+│   ├── rag_aggregation.py, index_weekly_summaries.py    weekly rollup -> fixed-shape doc -> embed (the RAG knowledge base)
+│   ├── rag.py                                 retrieve + synthesize, cited by week
+│   └── index_feedback.py                      legacy per-item indexer, unused by the live RAG path (kept for reference)
+└── agent/                                     natural-language data agent -- see AGENT.md
+    ├── schema_registry.py                     table/column/enum allowlist, derived live from models.py/schemas.py
+    ├── sql_gateway.py                         SQLGlot validation gateway -- the actual SQL safety boundary
+    ├── chart_selector.py                       deterministic result-shape -> chart-component mapping
+    ├── context.py, tools.py                    per-run context + the run_sql tool and its guardrail
+    ├── agent.py                                 Agent definition + run_agent_query() orchestration
+    └── test_*.py                                 unit + integration tests (see AGENT.md)
 
 frontend/    Vite + React dashboard
 data/        raw/staging/enriched checkpoints + data/chroma (vector store)
@@ -52,13 +62,15 @@ data/enriched/feedback_enriched.json                staging fields + {category, 
         │  pipeline/model.py: seed dimensions, explode multi-label category into a bridge table
         ▼
 Postgres star schema (pulseai db)                   fact_feedback + dim_source/feedback_type/category
-        │                                    │
-        │  analytics/aggregations.py,        │  rag/index_weekly_summaries.py: per-week rollup
-        │  priority.py, summary.py,          │  (rag/rag_aggregation.py) -> embed one fixed-shape
-        │  weekly_aggregations.py            │  document/week (nomic-embed-text) into ChromaDB
-        ▼                                    ▼
-api.py (FastAPI)  ◄──────────────────  rag/rag.py (retrieve weekly docs + synthesize, cited by week)
-        │
+        │                        │                          │
+        │ analytics/             │ rag/index_weekly_         │ agent/agent.py: agent drafts SQL,
+        │ aggregations.py,       │ summaries.py: per-week    │ sql_gateway.py validates it, executed
+        │ priority.py,           │ rollup -> embed one       │ read-only (pulseai_ro role), chart
+        │ summary.py,            │ fixed-shape doc/week      │ picked deterministically -- see AGENT.md
+        │ weekly_aggregations.py │ into ChromaDB             │
+        ▼                        ▼                          ▼
+api.py (FastAPI)  ◄────── rag/rag.py (retrieve   ◄── agent/agent.py (run_agent_query)
+        │                  weekly docs, cited by week)
         ▼
 frontend/ (Vite + React) -- fetches api.py's endpoints, renders the dashboard
 ```
@@ -140,7 +152,29 @@ Built on top of the star schema, not the JSON:
 - **`api.py`** — a FastAPI layer wrapping all of the above as JSON endpoints
   (`/api/kpis`, `/api/priority`, `/api/categories`, `/api/sentiment`,
   `/api/sources`, `/api/trend`, `/api/current-week`, `/api/summary`,
-  `POST /api/ask`), with CORS enabled for the frontend's dev server.
+  `POST /api/ask`, `POST /api/agent/ask`), with CORS enabled for the
+  frontend's dev server.
+
+## Data agent (Phase 5)
+
+**`agent/`** — a natural-language agent (OpenAI Agents SDK) that answers
+precise, quantitative questions nobody wrote a fixed aggregation for in
+advance ("compare fee complaints by source last quarter"), by drafting and
+running its own SQL. Full architecture, the SQL safety gateway, and the
+threat model are in **[`AGENT.md`](AGENT.md)** — short version: the model
+never gets to run SQL directly. Every draft passes through a deterministic,
+non-LLM validation gateway (`agent/sql_gateway.py`, built on SQLGlot) before
+it can execute, and even then only against a Postgres role that has
+nothing but `SELECT` granted (`pulseai_ro`) — a real permission boundary,
+not just a naming convention. Which chart displays the result is also
+decided in code, never trusted from the model's own guess, by re-reading
+the actual columns the query returned.
+
+This is the one feature in the app that calls a paid, hosted model instead
+of local Ollama — a deliberate, scoped exception to this project's
+otherwise fully-local/free design (see `NOTES.md`), because drafting
+correct SQL is a harder generation task than anything the local model has
+handled reliably elsewhere in this repo.
 
 ## Dashboard (Phase 4)
 
@@ -148,9 +182,11 @@ Built on top of the star schema, not the JSON:
 and rendering: a KPI row and four charts (category volume bar, sentiment
 diverging stacked bar, source donut, volume trend line) that switch between
 an **All-time** and **This week** view via a tab, the priority panel, the
-"ask your feedback" RAG box, and the weekly summary — in that order, top to
-bottom. Dark theme and chart-type choices are sourced from a validated
-color/chart-form design system rather than picked by eye (see `theme.css`).
+"ask your feedback" RAG box, the data agent's "Ask The Data" box, and the
+weekly summary — in that order, top to bottom. Dark theme and chart-type
+choices are sourced from a validated color/chart-form design system rather
+than picked by eye (see `theme.css`); the data agent reuses the same four
+chart components dynamically rather than introducing new ones.
 
 ## Setup
 
@@ -184,13 +220,25 @@ color/chart-form design system rather than picked by eye (see `theme.css`).
    "$PGBIN/createdb" -O pulseai pulseai
    ```
    On future sessions you only need the `pg_ctl ... start` line (or `... stop` to shut it down).
-6. Install [Node.js](https://nodejs.org) (LTS) for the frontend -- easiest via
+6. Create the **read-only role for the data agent** (same `psql` session as above)
+   and set `DATABASE_READ_URL` in `.env` to it -- full statements and rationale
+   in [`AGENT.md`](AGENT.md):
+   ```
+   "$PGBIN/psql" -d pulseai -c "CREATE ROLE pulseai_ro LOGIN PASSWORD 'pulseai_ro';"
+   "$PGBIN/psql" -d pulseai -c "GRANT CONNECT ON DATABASE pulseai TO pulseai_ro;"
+   "$PGBIN/psql" -d pulseai -c "GRANT USAGE ON SCHEMA public TO pulseai_ro;"
+   "$PGBIN/psql" -d pulseai -c "GRANT SELECT ON ALL TABLES IN SCHEMA public TO pulseai_ro;"
+   ```
+7. Get an [OpenAI API key](https://platform.openai.com/api-keys) and set
+   `OPENAI_API_KEY` in `.env` -- only the data agent uses it, everything
+   else stays on local Ollama. Never put a real key anywhere except `.env`.
+8. Install [Node.js](https://nodejs.org) (LTS) for the frontend -- easiest via
    [nvm](https://github.com/nvm-sh/nvm), no Homebrew/sudo needed:
    ```
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
    nvm install --lts
    ```
-7. Install frontend deps:
+9. Install frontend deps:
    ```
    cd frontend && npm install
    ```
@@ -216,6 +264,11 @@ won't notice later edits to any backend file until manually restarted.
 To run any single stage independently: `uv run python -m backend.pipeline.etl` /
 `uv run python -m backend.pipeline.classify` / `uv run python -m backend.pipeline.model` /
 `uv run python -m backend.rag.index_weekly_summaries`.
+
+To run the data agent's test suite (see [`AGENT.md`](AGENT.md) for what each file covers):
+```
+uv run pytest backend/agent/
+```
 
 ## Taxonomy
 

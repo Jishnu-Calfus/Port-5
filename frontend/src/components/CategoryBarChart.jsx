@@ -1,9 +1,9 @@
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
-export default function CategoryBarChart({ data }) {
+export default function CategoryBarChart({ data, title = "Feedback Volume by Category" }) {
   return (
     <div className="card chart-card">
-      <div className="section-title">Feedback Volume by Category</div>
+      <div className="section-title">{title}</div>
       <ResponsiveContainer width="100%" height={280}>
         <BarChart data={data} layout="vertical" margin={{ left: 100 }}>
           <CartesianGrid stroke="var(--gridline)" horizontal={false} />

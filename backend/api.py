@@ -3,15 +3,16 @@ Phase 3: FastAPI layer wrapping the existing aggregation/priority/summary/RAG
 logic as JSON endpoints. Routes are thin -- each one calls a function that
 already exists and returns its result; no service/repository layers.
 """
-from fastapi import Depends, FastAPI
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
+from backend.agent.agent import AgentQueryFailed, run_agent_query
 from backend.analytics import aggregations, priority, summary, weekly_aggregations
 from backend.rag import rag
 from backend.db import SessionLocal
-from backend.schemas import RAGAnswer, WeeklySummary
+from backend.schemas import AgentAnswer, RAGAnswer, WeeklySummary
 
 app = FastAPI(title="PulseAI API")
 
@@ -79,3 +80,25 @@ class AskRequest(BaseModel):
 @app.post("/api/ask", response_model=RAGAnswer)
 def post_ask(request: AskRequest):
     return rag.ask(request.question, top_k=request.top_k)
+
+
+#request model for the /api/agent/ask endpoint
+class AgentAskRequest(BaseModel):
+    question: str
+
+
+@app.post("/api/agent/ask", response_model=AgentAnswer)
+async def post_agent_ask(request: AgentAskRequest):
+    try:
+        return await run_agent_query(request.question)
+    except AgentQueryFailed as exc:
+        # Client-fixable: the agent never found a safe way to answer this
+        # specific question. Never a fabricated answer.
+        raise HTTPException(status_code=422, detail=exc.reason)
+    except Exception as exc:
+        # Anything else (OpenAI API down, network failure, ...) is a
+        # server-side dependency problem, not something the question can be
+        # reworded to fix -- don't leak the raw exception to the client.
+        raise HTTPException(
+            status_code=502, detail="Data agent is temporarily unavailable. Try again shortly."
+        ) from exc

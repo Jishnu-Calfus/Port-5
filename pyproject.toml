@@ -8,12 +8,20 @@ dependencies = [
     "chromadb>=1.5.9",
     "fastapi>=0.139.2",
     "ollama>=0.6.2",
+    "openai>=2.53.0",
+    "openai-agents>=0.19.4",
     "pandas>=3.0.5",
     "psycopg2-binary>=2.9.12",
     "pydantic>=2.13.4",
     "python-dotenv>=1.2.2",
     "sqlalchemy>=2.0.51",
+    "sqlglot>=30.15.0",
     "uvicorn>=0.51.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
 ]
 
 [build-system]

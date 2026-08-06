@@ -47,3 +47,19 @@ export async function askQuestion(question, topK = 3) {
   if (!res.ok) throw new Error(`ask failed: ${res.status}`);
   return res.json();
 }
+
+export async function askAgent(question) {
+  const res = await fetch(`${API_BASE}/agent/ask`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ question }),
+  });
+  if (!res.ok) {
+    // Unlike askQuestion, the error body here is meant to be shown to the
+    // user (e.g. a 422 "couldn't safely answer that" reason) -- surface it
+    // instead of just the status code.
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.detail || `agent/ask failed: ${res.status}`);
+  }
+  return res.json();
+}

@@ -1,9 +1,9 @@
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
-export default function TrendLine({ data }) {
+export default function TrendLine({ data, title = "Feedback Volume Over Time" }) {
   return (
     <div className="card chart-card">
-      <div className="section-title">Feedback Volume Over Time</div>
+      <div className="section-title">{title}</div>
       <ResponsiveContainer width="100%" height={280}>
         <LineChart data={data} margin={{ left: 0, right: 16 }}>
           <CartesianGrid stroke="var(--gridline)" vertical={false} />

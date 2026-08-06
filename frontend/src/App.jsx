@@ -7,6 +7,7 @@ import SentimentDivergingBar from "./components/SentimentDivergingBar";
 import SourceDonut from "./components/SourceDonut";
 import TrendLine from "./components/TrendLine";
 import AskFeedback from "./components/AskFeedback";
+import DataAgent from "./components/DataAgent";
 import OverviewSummary from "./components/OverviewSummary";
 
 function App() {
@@ -104,6 +105,8 @@ function App() {
       <PriorityPanel data={data.priority} />
 
       <AskFeedback />
+
+      <DataAgent />
     </div>
   );
 }

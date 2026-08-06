@@ -5,10 +5,10 @@ import { Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from "recha
 // unlike sentiment, which is ordered and gets the diverging bar instead.
 const COLORS = ["var(--series-blue)", "var(--series-orange)", "var(--series-aqua)"];
 
-export default function SourceDonut({ data }) {
+export default function SourceDonut({ data, title = "Feedback by Source" }) {
   return (
     <div className="card chart-card">
-      <div className="section-title">Feedback by Source</div>
+      <div className="section-title">{title}</div>
       <ResponsiveContainer width="100%" height={280}>
         <PieChart>
           <Pie
