@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from models import FactFeedback
-from vector_store import collection
+from backend.models import FactFeedback
+from backend.rag.vector_store import collection
 
 def get_feedback_records(session: Session):
     return session.query(FactFeedback).all()

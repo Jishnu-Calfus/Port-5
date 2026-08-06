@@ -8,10 +8,10 @@ import json
 
 import pandas as pd
 
-from config import STAGING_DIR, ENRICHED_DIR
-from llm_client import generate_structured, LLMOutputError
-from prompts import build_system_prompt, build_user_prompt
-from schemas import Classification, EnrichedData
+from backend.config import STAGING_DIR, ENRICHED_DIR
+from backend.pipeline.llm_client import generate_structured, LLMOutputError
+from backend.pipeline.prompts import build_system_prompt, build_user_prompt
+from backend.schemas import Classification, EnrichedData
 
 SYSTEM_PROMPT = build_system_prompt()
 

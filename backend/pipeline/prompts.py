@@ -8,7 +8,7 @@ why few-shot beats zero-shot here: the taxonomy is semantically tight
 (e.g. "money is stuck" could mean a freeze, a fraud hold, or a slow
 transfer), and only worked examples pin down which label applies when.
 """
-from schemas import Classification
+from backend.schemas import Classification
 
 TAXONOMY = """\
 - Account Access & Freezes: the account itself is locked, frozen, or under review by the company (not a specific transaction dispute, and not the user's account being hacked by a third party).

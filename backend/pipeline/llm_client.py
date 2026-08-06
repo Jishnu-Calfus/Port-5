@@ -3,7 +3,7 @@ import json
 import ollama
 from pydantic import BaseModel, ValidationError
 
-from config import OLLAMA_HOST, OLLAMA_MODEL
+from backend.config import OLLAMA_HOST, OLLAMA_MODEL
 
 _client = ollama.Client(host=OLLAMA_HOST)
 

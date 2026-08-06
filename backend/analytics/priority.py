@@ -5,7 +5,7 @@ computed -- reused, not re-queried.
 """
 from sqlalchemy.orm import Session
 
-from aggregations import category_volume, sentiment_by_category
+from backend.analytics.aggregations import category_volume, sentiment_by_category
 
 # Business-impact weight per severity level -- same static judgment call as
 # SEVERITY_MAP in models.py, just turned into a number so it can multiply.

@@ -8,8 +8,8 @@ import json
 
 import pandas as pd
 
-from config import RAW_DIR, STAGING_DIR
-from schemas import Source, StagingRecord
+from backend.config import RAW_DIR, STAGING_DIR
+from backend.schemas import Source, StagingRecord
 
 
 def _load_reviews() -> pd.DataFrame:

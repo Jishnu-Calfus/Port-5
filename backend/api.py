@@ -8,12 +8,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
-import aggregations
-import priority
-import rag
-import summary
-from db import SessionLocal
-from schemas import RAGAnswer, WeeklySummary
+from backend.analytics import aggregations, priority, summary, weekly_aggregations
+from backend.rag import rag
+from backend.db import SessionLocal
+from backend.schemas import RAGAnswer, WeeklySummary
 
 app = FastAPI(title="PulseAI API")
 
@@ -63,6 +61,11 @@ def get_trend(session: Session = Depends(get_session)):
     return aggregations.volume_trend(session)
 
 
+@app.get("/api/current-week")
+def get_current_week(session: Session = Depends(get_session)):
+    return weekly_aggregations.compute_current_week(session)
+
+
 @app.get("/api/summary", response_model=WeeklySummary)
 def get_summary(session: Session = Depends(get_session)):
     return summary.generate_weekly_summary(session)
@@ -70,7 +73,7 @@ def get_summary(session: Session = Depends(get_session)):
 #request model for the /api/ask endpoint
 class AskRequest(BaseModel):
     question: str
-    top_k: int = 5
+    top_k: int = 3
 
 
 @app.post("/api/ask", response_model=RAGAnswer)

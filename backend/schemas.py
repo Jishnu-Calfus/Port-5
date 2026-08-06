@@ -53,10 +53,27 @@ class EnrichedData(Classification):
     source: Source = Field(..., description="Source associated with the enriched data")
     feedback: str = Field(..., description="Feedback given by the user")
 
+class RAGSynthesis(BaseModel):
+    """What the LLM actually produces -- cites excerpts by their 1-based
+    position in the numbered list it was given, never by reproducing a date
+    string itself, since that's a formatting task small models get wrong."""
+    answer: str = Field(..., description="Synthesized answer, grounded only in the provided weekly excerpts. If the question is about a pattern, trend, or recurrence, name the specific week(s) it shows up in directly in this text.")
+    cited_excerpts: List[int] = Field(..., description="1-based position (in the numbered list of weekly excerpts provided) of every excerpt the answer draws on")
+
+
 class RAGAnswer(BaseModel):
-    answer: str = Field(..., description="Synthesized answer, grounded only in the provided feedback excerpts")
-    cited_ids: List[str] = Field(..., description="IDs of the feedback items that support the answer")
+    """Public shape returned by the API/frontend -- citations resolved to real
+    week_start dates in code, not trusted from LLM-formatted text."""
+    answer: str = Field(..., description="Synthesized answer, grounded only in the provided weekly excerpts")
+    cited_weeks: List[str] = Field(..., description="week_start date (YYYY-MM-DD) of every weekly excerpt the answer draws on")
 
 
 class WeeklySummary(BaseModel):
     summary: str = Field(..., description="Narrative summary grounded only in the provided computed numbers")
+
+
+class WeeklyRAGSummary(BaseModel):
+    """The only LLM-authored piece of a weekly RAG document -- everything else
+    (stats, deltas, quotes) is rendered deterministically in code."""
+    headline: str = Field(..., description="One-sentence takeaway for the week, grounded only in the numbers provided")
+    narrative: str = Field(..., description="2-3 sentence analysis, grounded only in the numbers provided")

@@ -10,8 +10,8 @@ from datetime import datetime
 from sqlalchemy import DateTime, Enum, ForeignKey, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from db import Base
-from schemas import Sentiment, Topic
+from backend.db import Base
+from backend.schemas import Sentiment, Topic
 
 # Static severity per category — a business judgment call, not derived from
 # the data, so it's hardcoded here rather than asked of the LLM or computed.

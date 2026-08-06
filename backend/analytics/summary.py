@@ -12,10 +12,10 @@ same dashboard, the summary narrates the same full dataset those panels show
 """
 from sqlalchemy.orm import Session
 
-from aggregations import kpi_summary
-from llm_client import generate_structured
-from priority import compute_priority
-from schemas import WeeklySummary
+from backend.analytics.aggregations import kpi_summary
+from backend.pipeline.llm_client import generate_structured
+from backend.analytics.priority import compute_priority
+from backend.schemas import WeeklySummary
 
 SYSTEM_PROMPT_SUMMARY = """You write a short, 3-4 sentence weekly summary of user feedback for a \
 product/CX team, using ONLY the numbers provided below. Never invent a number, category, or example \

@@ -5,10 +5,24 @@ Phase 3:
 -> Each function pulls joined rows via SQLAlchemy, then does the actual grouping/math with pandas -- the LLM never
 touches any of this, matching the project's "deterministic math" principle.
 """
+from datetime import datetime
+
 import pandas as pd
 from sqlalchemy.orm import Session
 
-from models import DimCategory, DimSource, FactFeedback, FactFeedbackCategory
+from backend.models import DimCategory, DimSource, FactFeedback, FactFeedbackCategory
+
+
+def feedback_in_period(session: Session, start: datetime, end: datetime) -> list[FactFeedback]:
+    """Records in [start, end) -- the scoping primitive the weekly RAG rollup
+    (rag_aggregation.py) needs; every other function below still queries the
+    full table (fine for the all-time dashboard, not for a period-scoped
+    rollup summary)."""
+    return (
+        session.query(FactFeedback)
+        .filter(FactFeedback.timestamp >= start, FactFeedback.timestamp < end)
+        .all()
+    )
 
 
 def category_volume(session: Session) -> list[dict]:

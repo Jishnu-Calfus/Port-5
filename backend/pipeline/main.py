@@ -2,8 +2,7 @@
 Phase 1 pipeline: raw sources -> normalized staging -> LLM-classified
 enriched data. Run this end-to-end with `uv run main.py`.
 """
-import etl
-import classify
+from backend.pipeline import etl, classify
 
 
 def main():

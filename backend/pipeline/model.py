@@ -10,10 +10,10 @@ from datetime import datetime
 
 from sqlalchemy.orm import Session
 
-from config import ENRICHED_DIR
-from db import Base, SessionLocal, engine
-from models import SEVERITY_MAP, DimCategory, DimFeedbackType, DimSource, FactFeedback, FactFeedbackCategory
-from schemas import EnrichedData, FeedbackType, Source, Topic
+from backend.config import ENRICHED_DIR
+from backend.db import Base, SessionLocal, engine
+from backend.models import SEVERITY_MAP, DimCategory, DimFeedbackType, DimSource, FactFeedback, FactFeedbackCategory
+from backend.schemas import EnrichedData, FeedbackType, Source, Topic
 
 
 def load_enriched() -> list[EnrichedData]:
