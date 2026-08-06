@@ -161,3 +161,89 @@ didn't work" for a real bug when it's actually just a stale process.
 robustness testing yet (empty input, wrong-language input, Ollama being
 unreachable mid-batch) — both called out explicitly in the original brief and
 still open.
+
+## 2026-08-06 — RAG redesign: per-item dump → weekly rollup, plus a repo restructure
+
+**What got built:** `rag/rag_aggregation.py` + `rag/index_weekly_summaries.py`
+replace `rag/index_feedback.py` as the live RAG path. Instead of embedding
+every raw feedback item, one fixed-shape document is computed per ISO week
+(category breakdown, source/feedback-type breakdown, week-over-week deltas, a
+short LLM-narrated headline/analysis, a few representative quotes) and
+embedded as a single vector. `analytics/weekly_aggregations.py` powers a new
+"This week" dashboard tab alongside the existing all-time view. The whole
+repo was also restructured from ~20 flat top-level scripts into a proper
+`backend` package (`pipeline/`, `analytics/`, `rag/` submodules) installed
+editable via `uv sync`.
+
+**Why per-item dumping had to go:** at real volume (mid-market fintechs run
+~2-5k feedback items/week, top-tier ~20-40k+, per published case studies),
+raw per-item embedding crowds the vector space with near-duplicate phrasings
+of the same recurring complaint shapes. Top-k similarity search then surfaces
+whichever theme has the highest raw *frequency*, not what's most relevant —
+the same underlying mechanism that caused the Fees & Pricing bug above, just
+far more pronounced at scale. Compressing to one priority-ranked summary per
+week (severity × volume × negative-share, reusing `priority.py`'s formula —
+not raw volume, so a small-but-severe category doesn't get buried under a
+large-but-mild one) keeps the vector count at ~52-54/year regardless of
+weekly volume, and keeps embeddings shape-consistent (same section order
+every week) rather than embedding arbitrary free text.
+
+**Citations moved from feedback ids to weeks, on purpose.** The RAG box's job
+narrowed to "which week(s) does this pattern show up in" — exact counts or an
+exhaustive list within a cited week is Postgres/`aggregations.py`'s job, not
+RAG's (same principle as the Fees & Pricing bug's lesson, now made explicit
+in the API contract). `RAGSynthesis` (LLM-facing) cites excerpts by their
+1-based position in the numbered prompt list; `rag.ask()` resolves that to
+real `week_start` dates in code. Deliberately not asking the LLM to reproduce
+a date string itself — a small model reliably mangles that formatting task
+even when the correct value is right in front of it.
+
+**Concrete bug: a bracket-notation collision was silently breaking citation.**
+Representative quotes inside each week's document were originally formatted
+as `[id=175] "..."`, and the outer per-excerpt numbering used for citation
+was *also* `[id=<week>]`-shaped. With up to ~10 quote markers per week vs.
+one citation marker per excerpt, the model reliably latched onto the more
+frequent pattern and cited feedback ids instead of weeks (even mangling them
+into negative integers trying to reconcile both shapes against an `int`
+schema field). Fixed by reformatting quotes as plain prose (`- category,
+feedback #175: "..."`) so only one bracket-integer pattern exists in the
+prompt at all. Lesson: don't reuse the same visual/syntactic pattern for two
+different things in one prompt, even if the semantic intent seems obvious to
+a human reading it.
+
+**Concrete bug: top_k=5 reliably broke synthesis; top_k=2-3 didn't.** Proved
+this empirically, not by guessing — at top_k=5 the local `qwen2.5:7b-instruct`
+model defaulted to copying one retrieved week's document nearly verbatim
+(markdown headers and all) instead of synthesizing across all five, no matter
+how the system prompt was reworded. Same question at top_k=2-3 produced
+correct, genuine cross-week synthesis with accurate citations, every time.
+Changed the default top_k from 5 to 3 everywhere (`rag.py`, `api.py`,
+`frontend/src/api.js`) rather than continuing to fight it with prompt
+wording — this is a context-size ceiling of this specific local model on this
+task shape, not a wording problem.
+
+**Concrete bug: week-boundary anchoring drifted between runs.** The first
+weekly-index run anchored to the earliest timestamp in whatever subset of
+data happened to be in Postgres at the time (a Sunday); after loading the
+full dataset, the earliest timestamp was a Monday instead, shifting the whole
+week grid by a day and silently orphaning the old run's vectors under
+mismatched ids rather than overwriting them. Fixed by anchoring to the real
+calendar Monday of the earliest week (`monday_of()`), shared between
+`rag/index_weekly_summaries.py` and `analytics/weekly_aggregations.py` so
+both agree on what a "week" is regardless of what subset of data is loaded
+when either runs.
+
+**`tiering.py` (current week / rolling month / historical, scaffolding for an
+earlier 3-tier map-reduce design) was removed** once the design simplified to
+a single uniform per-week resolution — every week gets the same treatment
+regardless of age, so there was no longer an age-based branch for it to
+decide.
+
+**What I'd revisit:** RAG retrieval is still pure content-similarity with no
+awareness of `week_start`/`week_end` metadata — a "recent" or "lately"-flavored
+question can retrieve weeks scattered across the whole dataset instead of the
+actual recent end, since recency isn't a property the embedding captures at
+all. Also open: a separate NL→SQL "data agent" (schema/taxonomy-aware,
+generates and runs its own queries, auto-picks a chart) was scoped in
+conversation as the tool for precise/exhaustive drill-down once RAG points at
+a week, but hasn't been built yet.

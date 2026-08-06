@@ -1,8 +1,8 @@
 # PulseAI — Data Model (Phase 2)
 
-Star schema for the enriched feedback data, implemented in `models.py` and loaded
-by `model.py`. Renders as a diagram directly on GitHub, or in any Mermaid-aware
-Markdown viewer.
+Star schema for the enriched feedback data, implemented in `backend/models.py` and
+loaded by `backend/pipeline/model.py`. Renders as a diagram directly on GitHub, or
+in any Mermaid-aware Markdown viewer.
 
 ```mermaid
 erDiagram
