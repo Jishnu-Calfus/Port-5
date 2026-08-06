@@ -12,6 +12,7 @@ import WeeklySummary from "./components/WeeklySummary";
 function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [view, setView] = useState("all");
 
   useEffect(() => {
     Promise.all([
@@ -22,9 +23,10 @@ function App() {
       api.getSources(),
       api.getTrend(),
       api.getSummary(),
+      api.getCurrentWeek(),
     ])
-      .then(([kpis, priority, categories, sentiment, sources, trend, summary]) => {
-        setData({ kpis, priority, categories, sentiment, sources, trend, summary });
+      .then(([kpis, priority, categories, sentiment, sources, trend, summary, currentWeek]) => {
+        setData({ kpis, priority, categories, sentiment, sources, trend, summary, currentWeek });
       })
       .catch((err) => setError(err.message));
   }, []);
@@ -52,21 +54,53 @@ function App() {
         <p>Consumer fintech feedback insights</p>
       </header>
 
-      <div className="kpi-row">
-        <StatTile label="Total Feedback" value={data.kpis.total_feedback} />
-        <StatTile label="Negative Sentiment" value={`${data.kpis.negative_pct}%`} />
-        <StatTile label="Most Active Category" value={data.kpis.top_category} />
-        <StatTile label="Critical Open Issues" value={data.kpis.critical_open_issues} />
+      <div className="view-tabs">
+        <button className={view === "all" ? "view-tab active" : "view-tab"} onClick={() => setView("all")}>
+          All time
+        </button>
+        <button className={view === "week" ? "view-tab active" : "view-tab"} onClick={() => setView("week")}>
+          This week
+        </button>
+        {view === "week" && (
+          <span className="view-tab-range">
+            {data.currentWeek.week_start} – {data.currentWeek.week_end}
+          </span>
+        )}
       </div>
+
+      {view === "all" ? (
+        <>
+          <div className="kpi-row">
+            <StatTile label="Total Feedback" value={data.kpis.total_feedback} />
+            <StatTile label="Negative Sentiment" value={`${data.kpis.negative_pct}%`} />
+            <StatTile label="Most Active Category" value={data.kpis.top_category} />
+            <StatTile label="Critical Open Issues" value={data.kpis.critical_open_issues} />
+          </div>
+          <div className="charts-grid">
+            <CategoryBarChart data={data.categories} />
+            <SentimentDivergingBar data={data.sentiment} />
+            <SourceDonut data={data.sources} />
+            <TrendLine data={data.trend} />
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="kpi-row">
+            <StatTile label="Total Feedback" value={data.currentWeek.kpis.total_feedback} />
+            <StatTile label="Negative Sentiment" value={`${data.currentWeek.kpis.negative_pct}%`} />
+            <StatTile label="Most Active Category" value={data.currentWeek.kpis.top_category} />
+            <StatTile label="Critical Open Issues" value={data.currentWeek.kpis.critical_open_issues} />
+          </div>
+          <div className="charts-grid">
+            <CategoryBarChart data={data.currentWeek.categories} />
+            <SentimentDivergingBar data={data.currentWeek.sentiment} />
+            <SourceDonut data={data.currentWeek.sources} />
+            <TrendLine data={data.currentWeek.trend} />
+          </div>
+        </>
+      )}
 
       <PriorityPanel data={data.priority} />
-
-      <div className="charts-grid">
-        <CategoryBarChart data={data.categories} />
-        <SentimentDivergingBar data={data.sentiment} />
-        <SourceDonut data={data.sources} />
-        <TrendLine data={data.trend} />
-      </div>
 
       <AskFeedback />
 

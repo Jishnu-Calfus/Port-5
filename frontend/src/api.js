@@ -30,11 +30,15 @@ export function getTrend() {
   return getJSON("/trend");
 }
 
+export function getCurrentWeek() {
+  return getJSON("/current-week");
+}
+
 export function getSummary() {
   return getJSON("/summary");
 }
 
-export async function askQuestion(question, topK = 5) {
+export async function askQuestion(question, topK = 3) {
   const res = await fetch(`${API_BASE}/ask`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

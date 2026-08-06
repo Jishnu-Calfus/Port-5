@@ -40,11 +40,11 @@ export default function AskFeedback() {
       {answer && (
         <div>
           <p className="ask-answer">{answer.answer}</p>
-          {answer.cited_ids.length > 0 && (
+          {answer.cited_weeks.length > 0 && (
             <div className="cited-ids">
-              {answer.cited_ids.map((id) => (
-                <span className="cited-id-chip" key={id}>
-                  feedback #{id}
+              {answer.cited_weeks.map((week) => (
+                <span className="cited-id-chip" key={week}>
+                  Week of {week}
                 </span>
               ))}
             </div>
